@@ -25,7 +25,7 @@ const NotFound = (props) => {
                 </Fragment>
             }
             link3Url="#/about"
-            link1Url="/"
+            link1Url="/momentum-site/"
             link31={
                 <Fragment>
                     <span className="home-text13">Contact Us</span>
