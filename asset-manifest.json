@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/momentum-site/static/css/main.55cb52e6.css",
-    "main.js": "/momentum-site/static/js/main.fd54e2b4.js",
+    "main.js": "/momentum-site/static/js/main.26b52e71.js",
     "index.html": "/momentum-site/index.html",
     "main.55cb52e6.css.map": "/momentum-site/static/css/main.55cb52e6.css.map",
-    "main.fd54e2b4.js.map": "/momentum-site/static/js/main.fd54e2b4.js.map"
+    "main.26b52e71.js.map": "/momentum-site/static/js/main.26b52e71.js.map"
   },
   "entrypoints": [
     "static/css/main.55cb52e6.css",
-    "static/js/main.fd54e2b4.js"
+    "static/js/main.26b52e71.js"
   ]
 }
