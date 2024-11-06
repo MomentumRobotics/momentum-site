@@ -2,7 +2,7 @@
   "name": "momentum-site",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://momentumrobotics.github.io/momentum-site/",
+  "homepage": "https://momentumrobotics.github.io/momentum-site/#/",
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "dangerous-html": "0.1.13",
