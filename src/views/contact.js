@@ -43,7 +43,7 @@ const Contact = (props) => {
             <span className="contact-text15">About Us</span>
           </Fragment>
         }
-        link1Url="#/"
+        link1Url="/"
         link3Url="#/about"
         link3Url1="#/contact"
       ></Navbar8>
