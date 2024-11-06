@@ -35,13 +35,13 @@ const About = (props) => {
           </Fragment>
         }
         link1Url="/"
-        link3Url="/about"
+        link3Url="#/about"
         link31={
           <Fragment>
             <span className="about-text13">Contact Us</span>
           </Fragment>
         }
-        link3Url1="/contact"
+        link3Url1="#/contact"
       ></Navbar8>
       <Hero8
         content1={

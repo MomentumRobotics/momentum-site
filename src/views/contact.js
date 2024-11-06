@@ -44,8 +44,8 @@ const Contact = (props) => {
           </Fragment>
         }
         link1Url="/"
-        link3Url="/about"
-        link3Url1="/contact"
+        link3Url="#/about"
+        link3Url1="#/contact"
       ></Navbar8>
       <Contact11
         content1={
