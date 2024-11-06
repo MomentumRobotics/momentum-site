@@ -18,8 +18,8 @@ const App = () => {
         <Router>
             <Switch>
                 <Route component={Home} exact path="/" />  {/* Adjusted paths for HashRouter */}
-                <Route component={About} exact path="/about" />
-                <Route component={Contact} exact path="/contact" />
+                <Route component={About} exact path="#/about" />
+                <Route component={Contact} exact path="#/contact" />
                 <Route component={NotFound} />
                 <Redirect to="/" />
             </Switch>
