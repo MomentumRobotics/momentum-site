@@ -34,7 +34,7 @@ const About = (props) => {
             <span className="about-text12">Contact us</span>
           </Fragment>
         }
-        link1Url="/"
+        link1Url="#/"
         link3Url="#/about"
         link31={
           <Fragment>

@@ -1,13 +1,39 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 
 import { Helmet } from 'react-helmet'
 
 import './not-found.css'
+import Navbar8 from "../components/navbar8";
 
 const NotFound = (props) => {
   return (
     <div className="not-found-container1">
-      <Helmet>
+        <Navbar8
+            link1={
+                <Fragment>
+                    <span className="home-text10">Home</span>
+                </Fragment>
+            }
+            link3={
+                <Fragment>
+                    <span className="home-text11">About Us</span>
+                </Fragment>
+            }
+            link4={
+                <Fragment>
+                    <span className="home-text12">Contac Us</span>
+                </Fragment>
+            }
+            link3Url="#/about"
+            link1Url="#/"
+            link31={
+                <Fragment>
+                    <span className="home-text13">Contact Us</span>
+                </Fragment>
+            }
+            link3Url1="#/contact"
+        ></Navbar8>
+        <Helmet>
         <title>404 - Not Found</title>
       </Helmet>
       <h3>OOPS! PAGE NOT FOUND</h3>
