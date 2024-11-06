@@ -17,9 +17,9 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route component={Home} exact path="/" />
-        <Route component={About} exact path="/about" />
-        <Route component={Contact} exact path="/contact" />
+        <Route component={Home} exact path="/momentum-site/" />
+        <Route component={About} exact path="/momentum-site/about" />
+        <Route component={Contact} exact path="/momentum-site/contact" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
