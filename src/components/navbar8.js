@@ -121,7 +121,7 @@ const Navbar8 = (props) => {
 }
 
 Navbar8.defaultProps = {
-  logoAlt: 'Company Logo',
+  logoAlt: 'Momentum Robotics',
   link1: undefined,
   link3: undefined,
   logoSrc:

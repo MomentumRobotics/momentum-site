@@ -15,8 +15,8 @@ const About = (props) => {
   return (
     <div className="about-container">
       <Helmet>
-        <title>About - Worthwhile Quaint Dunlin</title>
-        <meta property="og:title" content="About - Worthwhile Quaint Dunlin" />
+        <title>About Us|Momentum Robotics</title>
+        <meta property="og:title" content="About Us|Momentum Robotics" />
       </Helmet>
       <Navbar8
         link1={

@@ -15,8 +15,8 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Momentum Robotics | Home</title>
-        <meta property="og:title" content="Worthwhile Quaint Dunlin" />
+        <title>Home|Momentum Robotics</title>
+        <meta property="og:title" content="Home|Momentum Robotics" />
       </Helmet>
       <Navbar8
         link1={

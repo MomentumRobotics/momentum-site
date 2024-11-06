@@ -12,10 +12,10 @@ const Contact = (props) => {
   return (
     <div className="contact-container">
       <Helmet>
-        <title>Contact - Worthwhile Quaint Dunlin</title>
+        <title>Contact Us|Momentum Robotics</title>
         <meta
           property="og:title"
-          content="Contact - Worthwhile Quaint Dunlin"
+          content="Contact Us|Momentum Robotics"
         />
       </Helmet>
       <Navbar8
