@@ -34,14 +34,14 @@ const About = (props) => {
             <span className="about-text12">Contact us</span>
           </Fragment>
         }
-        link1Url="/momentum-site/"
-        link3Url="/momentum-site/about"
+        link1Url="/"
+        link3Url="/about"
         link31={
           <Fragment>
             <span className="about-text13">Contact Us</span>
           </Fragment>
         }
-        link3Url1="/momentum-site/contact"
+        link3Url1="/contact"
       ></Navbar8>
       <Hero8
         content1={

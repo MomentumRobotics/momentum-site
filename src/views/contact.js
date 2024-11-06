@@ -43,9 +43,9 @@ const Contact = (props) => {
             <span className="contact-text15">About Us</span>
           </Fragment>
         }
-        link1Url="/momentum-site/"
-        link3Url="/momentum-site/about"
-        link3Url1="/momentum-site/contact"
+        link1Url="/"
+        link3Url="/about"
+        link3Url1="/contact"
       ></Navbar8>
       <Contact11
         content1={
