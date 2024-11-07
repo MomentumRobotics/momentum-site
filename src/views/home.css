@@ -1,4 +1,6 @@
-
+body::-webkit-scrollbar {
+  display: none;
+}
 .home-container {
   width: 100%;
   display: flex;

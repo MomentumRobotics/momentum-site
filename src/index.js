@@ -14,6 +14,7 @@ import Contact from './views/contact';
 import NotFound from './views/not-found';
 
 const App = () => {
+
     return (
         <Router>
             <Switch>

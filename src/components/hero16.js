@@ -156,7 +156,7 @@ const Hero16 = (props) => {
   )
 }
 
-Hero16.defaultProps = {
+/*Hero16.defaultProps = {
   heading1: undefined,
   action1: undefined,
   image3Alt: 'Hero Image',
@@ -180,6 +180,8 @@ Hero16.defaultProps = {
   image6Src:
     'https://images.unsplash.com/photo-1534312527009-56c7016453e6?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDIxfHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&ixlib=rb-4.0.3&w=1500',
 }
+*/
+
 
 Hero16.propTypes = {
   heading1: PropTypes.element,

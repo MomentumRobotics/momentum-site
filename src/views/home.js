@@ -46,17 +46,18 @@ const Home = (props) => {
         <Hero16
             heading1={
               <Fragment>
-                <span className="home-text14">Default value</span>
+                <span className="home-text14">Echipa Momentum</span>
               </Fragment>
             }
             action1={
               <Fragment>
-                <span className="home-text15">Default value</span>
+                <span className="home-text15">Default value1</span>
               </Fragment>
             }
             content1={
               <Fragment>
-                <span className="home-text16">Default value</span>
+                <span className="home-text16"><i><h2>Per aspera ad astra</h2></i></span>
+
               </Fragment>
             }
             action2={
