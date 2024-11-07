@@ -139,7 +139,7 @@
     padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 0px) {
   .navbar8-navbar-interactive {
     padding: var(--dl-space-space-unit);
     padding-right: 16px;

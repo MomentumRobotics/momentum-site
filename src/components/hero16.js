@@ -2,12 +2,12 @@ import React, { Fragment } from 'react'
 
 import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
-import pic1 from './src/components/src/Assets/a (1).jpg'
-import pic2 from './src/components/src/Assets/a (2).jpg'
-import pic3 from './src/components/src/Assets/a (3).jpg'
-import pic4 from './src/components/src/Assets/a (4).jpg'
-import pic5 from './src/components/src/Assets/a (5).jpg'
-import pic6 from './src/components/src/Assets/a (6).jpg'
+import pic1 from './src/Assets/a (1).png'
+import pic2 from './src/Assets/a (2).png'
+import pic3 from './src/Assets/a (3).png'
+import pic4 from './src/Assets/a (4).png'
+import pic5 from './src/Assets/a (5).png'
+import pic6 from './src/Assets/a (6).png'
 
 import './hero16.css'
 
@@ -55,35 +55,35 @@ const Hero16 = (props) => {
           <div className="hero16-column-container1 thq-mask-image-vertical thq-animated-group-container-vertical">
             <div className="thq-animated-group-vertical">
               <img
-                alt={props.image1Alt}
-                src={props.image1Src}
+                alt={pic1}
+                src={pic1}
                 className="hero16-placeholder-image10 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image2Alt}
-                src={props.image2Src}
+                alt={pic2}
+                src={pic2}
                 className="hero16-placeholder-image11 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image3Alt}
-                src={props.image3Src}
+                alt={pic3}
+                src={pic3}
                 className="hero16-placeholder-image12 thq-img-scale thq-img-ratio-1-1"
               />
             </div>
             <div className="thq-animated-group-vertical">
               <img
-                alt={props.image1Alt}
-                src={props.image1Src}
+                alt={pic1}
+                src={pic1}
                 className="hero16-placeholder-image13 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image2Alt}
-                src={props.image2Src}
+                alt={pic2}
+                src={pic2}
                 className="hero16-placeholder-image14 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image3Alt}
-                src={props.image3Src}
+                alt={pic3}
+                src={pic3}
                 className="hero16-placeholder-image15 thq-img-scale thq-img-ratio-1-1"
               />
             </div>
@@ -91,35 +91,35 @@ const Hero16 = (props) => {
           <div className="hero16-column-container2 thq-mask-image-vertical thq-animated-group-container-vertical">
             <div className="thq-animated-group-vertical-reverse">
               <img
-                alt={props.image4Alt}
-                src={props.image4Src}
+                alt={pic4}
+                src={pic4}
                 className="hero16-placeholder-image16 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image5Alt}
-                src={props.image5Src}
+                alt={pic5}
+                src={pic5}
                 className="hero16-placeholder-image17 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image6Alt}
-                src={props.image6Src}
+                alt={pic6}
+                src={pic6}
                 className="hero16-placeholder-image18 thq-img-scale thq-img-ratio-1-1"
               />
             </div>
             <div className="thq-animated-group-vertical-reverse">
               <img
-                alt={props.image4Alt}
-                src={props.image4Src}
+                alt={pic4}
+                src={pic4}
                 className="hero16-placeholder-image19 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image5Alt}
-                src={props.image5Src}
+                alt={pic5}
+                src={pic5}
                 className="hero16-placeholder-image20 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image6Alt}
-                src={props.image6Src}
+                alt={pic6}
+                src={pic6}
                 className="hero16-placeholder-image21 thq-img-scale thq-img-ratio-1-1"
               />
             </div>
