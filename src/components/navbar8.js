@@ -1,5 +1,5 @@
 import React, { useState, Fragment } from 'react'
-
+import logo from './src/Assets/logo.png'
 import PropTypes from 'prop-types'
 
 import './navbar8.css'
@@ -11,8 +11,7 @@ const Navbar8 = (props) => {
     <header className={`navbar8-container1 ${props.rootClassName} `}>
       <header data-thq="thq-navbar" className="navbar8-navbar-interactive">
         <img
-          alt={props.logoAlt}
-          src={props.logoSrc}
+          src={logo}
           className="navbar8-image1"
         />
         <div data-thq="thq-navbar-nav" className="navbar8-desktop-menu">
@@ -124,8 +123,6 @@ Navbar8.defaultProps = {
   logoAlt: 'Momentum Robotics',
   link1: undefined,
   link3: undefined,
-  logoSrc:
-    'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&force_format=original',
   link4: undefined,
   link3Url: 'https://www.teleporthq.io',
   link1Url: 'https://www.teleporthq.io',
