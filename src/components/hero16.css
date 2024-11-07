@@ -3,6 +3,7 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
+
 }
 .hero16-column {
   gap: var(--dl-space-space-oneandhalfunits);
@@ -86,8 +87,20 @@
 .hero16-container2 {
   display: contents;
 }
+
+:root {
+  --spacing-small: -35px;
+  --spacing-medium: 20px;
+}
+.hero16-text1 {
+  margin-bottom: var(--spacing-small);
+  line-height: 1.0;
+}
+
+
 .hero16-text5 {
   display: inline-block;
+
 }
 .hero16-text6 {
   display: inline-block;

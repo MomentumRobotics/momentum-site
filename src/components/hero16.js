@@ -25,34 +25,22 @@ const Hero16 = (props) => {
           </h1>
           <p className="thq-body-large hero16-text2">
             {props.content1 ?? (
+                <Fragment>
+                  <span className="hero16-text7">Default value</span>
+                </Fragment>
+            )}{props.content2 ?? (
               <Fragment>
-                <span className="hero16-text7">Default value</span>
+                <span className="home-text16"><i><h2>„pe căi anevoioase se ajunge la stele”</h2></i></span>
               </Fragment>
-            )}
+          )}
           </p>
-          <div className="hero16-actions">
-            <button className="thq-button-filled hero16-button1">
-              <span className="thq-body-small">
-                {props.action1 ?? (
-                  <Fragment>
-                    <span className="hero16-text6">Default value</span>
-                  </Fragment>
-                )}
-              </span>
-            </button>
-            <button className="thq-button-outline hero16-button2">
-              <span className="thq-body-small">
-                {props.action2 ?? (
-                  <Fragment>
-                    <span className="hero16-text8">Default value</span>
-                  </Fragment>
-                )}
-              </span>
-            </button>
-          </div>
+
+
+
+
         </div>
         <div className="hero16-content">
-          <div className="hero16-column-container1 thq-mask-image-vertical thq-animated-group-container-vertical">
+        <div className="hero16-column-container1 thq-mask-image-vertical thq-animated-group-container-vertical">
             <div className="thq-animated-group-vertical">
               <img
                 alt={pic1}

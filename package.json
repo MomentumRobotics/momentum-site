@@ -4,17 +4,18 @@
   "private": true,
   "homepage": "https://momentumrobotics.github.io/momentum-site/#/",
   "dependencies": {
-    "@craco/craco": "^7.1.0",
+    "@craco/craco": "^5.9.0",
     "compressorjs": "^1.2.1",
     "dangerous-html": "0.1.13",
     "deploy": "^1.0.3",
     "gh-pages": "^6.2.0",
-    "next": "^12.1.10",
+    "next": "^15.0.3",
     "prop-types": "15.7.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "react-text-gradients-and-animations": "^1.1.7"
   },
   "scripts": {
     "start": "craco start",

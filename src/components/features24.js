@@ -1,7 +1,11 @@
 import React, { useState, Fragment } from 'react'
 
 import PropTypes from 'prop-types'
-
+import {
+  LinearTextGradient,
+  RadialTextGradient,
+  ConicTextGradient,
+} from "react-text-gradients-and-animations";
 import './features24.css'
 
 const Features24 = (props) => {
@@ -11,11 +15,14 @@ const Features24 = (props) => {
       <div className="features24-container2 thq-section-max-width">
         <div className="features24-image-container">
           {activeTab === 0 && (
-            <img
-              alt={props.feature1ImgAlt}
-              src={props.feature1ImgSrc}
-              className="features24-image1 thq-img-ratio-16-9"
-            />
+            <div className="FTC"> <span className="bold-red"> First Tech Challenge (FTC)</span> este o competiție de robotică pentru
+              tineri, unde echipe de elevi construiesc și programează roboți.
+              Scopul este să-i învețe pe tineri despre <RadialTextGradient shape={"circle"} position={"center"} colors={["#D4145A" ,"#FBB03B"]}>  știință, tehnologie,
+              inginerie și matematică </RadialTextGradient>(STEM),
+              precum și
+              abilități de lucru în
+              echipă și rezolvare de probleme. Robotii construiți trebuie să
+              îndeplinească sarcini specifice într-un joc anual diferit.</div>
           )}
           {activeTab === 1 && (
             <img
@@ -48,15 +55,7 @@ const Features24 = (props) => {
                   </Fragment>
                 )}
               </h2>
-              <span className="thq-body-small">
-                {props.feature1Description ?? (
-                  <Fragment>
-                    <span className="features24-text6">
-                      Description for Feature 1
-                    </span>
-                  </Fragment>
-                )}
-              </span>
+
             </div>
           </div>
           <div

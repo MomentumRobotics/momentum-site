@@ -47,30 +47,28 @@ const Home = (props) => {
             heading1={
               <Fragment>
                 <span className="home-text14">Echipa Momentum</span>
+
               </Fragment>
             }
-            action1={
-              <Fragment>
-                <span className="home-text15">Default value1</span>
-              </Fragment>
-            }
+
             content1={
-              <Fragment>
-                <span className="home-text16"><i><h2>Per aspera ad astra</h2></i></span>
+                <Fragment>
+                    <span className="home-text16"><i><h2>Per aspera ad astra</h2></i></span>
 
-              </Fragment>
+                </Fragment>
             }
-            action2={
-              <Fragment>
-                <span className="home-text17">Default value</span>
-              </Fragment>
+            content2={
+                <Fragment>
+                    <span className="home-text16"><i><h2>„pe căi anevoioase se ajunge la stele”</h2></i></span>
+                </Fragment>
             }
+
         ></Hero16>
-        <Features24
+          <Features24
 
-            feature1Title={
-              <Fragment>
-                <span className="home-text18">Feature 1 Title</span>
+              feature1Title={
+                  <Fragment>
+                <span className="home-text18">What Is FTC</span>
               </Fragment>
             }
             feature2Title={
@@ -83,11 +81,7 @@ const Home = (props) => {
                 <span className="home-text20">Feature 3 Title</span>
               </Fragment>
             }
-            feature1Description={
-              <Fragment>
-                <span className="home-text21">Description for Feature 1</span>
-              </Fragment>
-            }
+
             feature2Description={
               <Fragment>
                 <span className="home-text22">Description for Feature 2</span>
