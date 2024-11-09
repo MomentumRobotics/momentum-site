@@ -12,6 +12,7 @@
   position: relative;
   align-items: center;
   justify-content: center;
+
 }
 .features24-image1 {
   animation-name: fadeIn;
@@ -22,23 +23,25 @@
   animation-timing-function: ease;
 }
 .FTC{
-  font: 400 20px  'laila' , sans-serif;
+  font: 400 20px  "Space Mono", monospace;
 }
 .Way{
-  font: 400 20px  'laila' , sans-serif;
+  font: 400 20px  "Space Mono", monospace;
 
 }
 .bold-red{
   color: red;
   font-weight: bold;
+
 }
 .sizetxt{
-  font: 400 25px  'laila' , sans-serif;
+  font: 400 30px  "Space Mono", monospace;
   font-weight: 1000;
 }
 .orange{
+  font: 400 30px  "Space Mono", monospace;
+  font-weight: 1000;
   color: orange;
-  font-weight: bold;
 }
 .instagram{
   display: inline-block;
@@ -77,7 +80,7 @@
 }
 
 .gold{
-  font: 400 18px  'laila' , sans-serif;
+  font: 400 18px  'Space Mono' , monospace;
   color: gold;
   font-weight: bold;
 }

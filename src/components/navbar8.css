@@ -157,3 +157,6 @@
     padding: var(--dl-space-space-unit);
   }
 }
+body{
+  font-family: "Space Mono", monospace;
+}

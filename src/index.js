@@ -1,17 +1,21 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import ReactDOM from 'react-dom';
 import {
     HashRouter as Router, // Change BrowserRouter to HashRouter
     Route,
     Switch,
-    Redirect,
+    Redirect, useLocation,
 } from 'react-router-dom';
 
 import './style.css';
-import Home from './components/src/Assets/views/home';
-import About from './components/src/Assets/views/about';
-import Contact from './components/src/Assets/views/contact';
-import NotFound from './components/src/Assets/views/not-found';
+import Home from './components/src/views/home';
+import About from './components/src/views/about';
+import Contact from './components/src/views/contact';
+import NotFound from './components/src/views/not-found';
+
+
+
+
 
 const App = () => {
 

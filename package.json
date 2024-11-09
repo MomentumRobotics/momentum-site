@@ -6,8 +6,11 @@
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "compressorjs": "^1.2.1",
+    "craco-less": "^3.0.1",
     "dangerous-html": "0.1.13",
     "deploy": "^1.0.3",
+    "eslint-plugin-html": "^8.1.2",
+    "eslint-webpack-plugin": "^4.2.0",
     "gh-pages": "^6.2.0",
     "next": "^15.0.3",
     "prop-types": "15.7.2",

@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react'
+import React, {useState, Fragment, useEffect} from 'react'
 
 import PropTypes from 'prop-types'
 import {
@@ -12,6 +12,13 @@ import facebooklogo from "./src/Assets/facebooklogo.png"
 
 const Features24 = (props) => {
   const [activeTab, setActiveTab] = useState(0)
+  const totalTabs = 3;
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveTab((prevTab) => (prevTab + 1) % totalTabs);
+    }, 5000); // Change the interval as needed
+    return () => clearInterval(interval); // Cleanup on unmount
+  }, []);
   return (
     <div className="thq-section-padding">
       <div className="features24-container2 thq-section-max-width">

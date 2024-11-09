@@ -1,0 +1,170 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.home-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  font-family: "Space Mono", monospace;
+}
+.home-text10 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+  font-weight: normal;
+}
+.home-text11 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+  font-weight: normal;
+}
+.home-text12 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text13 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+  font-weight: normal;
+}
+
+.home-text14 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  color: var(--dl-color-theme-neutral-dark);
+
+}
+
+
+.home-text15 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text16 {
+  margin-top: 5px;
+  display: inline-block;
+  position: relative;
+  left: 30px;
+  font-family: "Space Mono", monospace;
+  font-weight: lighter;
+  font-size: 12px;
+  color: rgba(38, 62, 147, 0.4);
+
+
+}
+.home-text17 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text18 {
+  display: inline-block;
+  font: 600 35px  "Space Mono", monospace;
+  font-weight: 1000;
+}
+.home-text19 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text20 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+
+}
+.home-text21 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text22 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text23 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text24 {
+  color: #6aa5ea;
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text25 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text26 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text27 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text28 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text29 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text30 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text31 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text32 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text33 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text34 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text35 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text36 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text37 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text38 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text39 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text40 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text41 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text42 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}
+.home-text43 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+}

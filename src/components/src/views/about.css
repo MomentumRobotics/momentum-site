@@ -1,0 +1,272 @@
+.about-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+body{
+  font-family: "Space Mono", monospace;
+}
+.about-text10 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+  font-weight: normal;
+}
+.about-text11 {
+  display: inline-block;font-family: "Space Mono", monospace;
+  font-weight: normal;
+}
+.about-text12 {
+  display: inline-block;font-family: "Space Mono", monospace;
+
+}
+.about-text13 {
+  display: inline-block;font-family: "Space Mono", monospace;font-weight: normal;
+}
+.about-text14 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text15 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text16 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text17 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text18 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text19 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text20 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text21 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text22 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text23 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text24 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text25 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text26 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text27 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text28 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text29 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text30 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text31 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text32 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text33 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text34 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text35 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text36 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text37 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text38 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text39 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text40 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text41 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text42 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text43 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text44 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text45 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text46 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text47 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text48 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text51 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text52 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text53 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text54 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text55 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text56 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text57 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text58 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text59 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text60 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text61 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text62 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text65 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text66 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text67 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text68 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text69 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text70 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text71 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text72 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text73 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text74 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text75 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text76 {
+  display: inline-block;font-family: "Space Mono", monospace;
+}
+.about-text77 {font-family: "Space Mono", monospace;
+  display: inline-block;
+}
+.Our_Team{
+  align-content: center;
+  horiz-align: center;
+  vertical-align: center;
+  font : 400 48px "Space Mono", monospace;
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+.Leaders{
+  font:1000 38px "Space Mono", monospace;
+  align-content: center;
+  horiz-align: center;
+  vertical-align: center;
+
+  margin-bottom: 50px;
+}
+.Picture and name{
+  font-family: "Space Mono", monospace;
+  display: inline-block;
+}
+.image{
+  font-family: "Space Mono", monospace;
+  align-items: center;
+  height: 200px;
+  border-radius: 10%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block; /* Show on hover */
+  text-align: center; /* Center the text */
+  align-content: center;
+  horiz-align: center;
+  vertical-align: center;
+}
+.image:hover{
+  font-family: "Space Mono", monospace;
+  scale: 1.1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.hide{
+  font-family: "Space Mono", monospace;
+  display: block; /* Show on hover */
+  text-align: center; /* Center the text */
+  align-content: center;
+  horiz-align: center;
+  vertical-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  margin: 20px 30px 30px;
+  font-family: "Space Mono", monospace;
+}
+.hide{
+  font: 1000 18px "Space Mono", monospace;
+}
+.image:hover + .hide{
+  font-family: "Space Mono", monospace;
+  opacity: 1;
+  display: block; /* Show on hover */
+  text-align: center; /* Center the text */
+  align-content: center;
+  horiz-align: center;
+  vertical-align: center;
+  position: relative; /* For precise alignment */
+   /* Add hover scaling for text */
+  transition: color 0.3s ease;
+   /* Space from the image */
+
+}
