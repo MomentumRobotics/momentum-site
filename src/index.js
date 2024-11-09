@@ -8,10 +8,10 @@ import {
 } from 'react-router-dom';
 
 import './style.css';
-import Home from './views/home';
-import About from './views/about';
-import Contact from './views/contact';
-import NotFound from './views/not-found';
+import Home from './components/src/Assets/views/home';
+import About from './components/src/Assets/views/about';
+import Contact from './components/src/Assets/views/contact';
+import NotFound from './components/src/Assets/views/not-found';
 
 const App = () => {
 
@@ -29,3 +29,4 @@ const App = () => {
 };
 
 ReactDOM.render(<App />, document.getElementById('app'));
+

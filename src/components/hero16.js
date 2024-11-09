@@ -30,7 +30,7 @@ const Hero16 = (props) => {
                 </Fragment>
             )}{props.content2 ?? (
               <Fragment>
-                <span className="home-text16"><i><h2>„pe căi anevoioase se ajunge la stele”</h2></i></span>
+                <span className="home-text16"><i><h2>„Pe căi anevoioase se ajunge la stele”</h2></i></span>
               </Fragment>
           )}
           </p>

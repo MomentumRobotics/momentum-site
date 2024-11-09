@@ -10,6 +10,8 @@
   height: 100%;
   display: flex;
   position: relative;
+  align-items: center;
+  justify-content: center;
 }
 .features24-image1 {
   animation-name: fadeIn;
@@ -22,22 +24,70 @@
 .FTC{
   font: 400 20px  'laila' , sans-serif;
 }
+.Way{
+  font: 400 20px  'laila' , sans-serif;
+
+}
 .bold-red{
   color: red;
+  font-weight: bold;
+}
+.sizetxt{
+  font: 400 25px  'laila' , sans-serif;
+  font-weight: 1000;
+}
+.orange{
+  color: orange;
+  font-weight: bold;
+}
+.instagram{
+  display: inline-block;
+  vertical-align: middle;
+  horiz-align: center;
+ width: 72px;
+  height: 72px;
+}
+.instagram_1 {
+  display: inline-flex;
+  vertical-align: middle;
+  horiz-align: center;
+  font: 400 40px  'laila' , sans-serif;
+}
+.instagram_1:hover{
+  font: 400 45px  'laila' , sans-serif;
+}
+
+.facebook{
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  horiz-align: center;
+  vertical-align: middle;
+
+}
+.facebook_1{
+  display: inline-block;
+  vertical-align: middle;
+  horiz-align: center;
+  font: 400 40px  'laila' , sans-serif;
+  color: #1877F2;
+}
+.facebook_1:hover{
+  font: 400 45px  'laila' , sans-serif;
+}
+
+.gold{
+  font: 400 18px  'laila' , sans-serif;
+  color: gold;
+  font-weight: bold;
+}
+.black{
+  color: black !important;
   font-weight: bold;
 }
 .green{
   color: green;
   font-weight: bolder;
-}
-.gradient-text {
-  color: white;
-  text-shadow:
-          -1px -1px 0 #ff0000,
-          1px -1px 0 #00ff00,
-          -1px 1px 0 #0000ff,
-          1px 1px 0 #a70ccd,
-          -1px 1px 0 #ffff00;
 }
 .features24-image2 {
   animation-name: fadeIn;

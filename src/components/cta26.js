@@ -3,6 +3,7 @@ import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 
 import './cta26.css'
+import {Link} from "react-router-dom";
 
 const CTA26 = (props) => {
   return (
@@ -15,35 +16,30 @@ const CTA26 = (props) => {
                 <span className="thq-heading-2">
                   {props.heading1 ?? (
                     <Fragment>
-                      <span className="cta26-text4">
-                        Join our community today!
+                      <span className="cta26-text4" >
+                        Alătură-te echipei noastre acum
                       </span>
                     </Fragment>
                   )}
                 </span>
-                <p className="thq-body-large">
-                  {props.content1 ?? (
-                    <Fragment>
-                      <span className="cta26-text6">
-                        Sign up to receive exclusive offers and updates.
-                      </span>
-                    </Fragment>
-                  )}
-                </p>
+
               </div>
               <div className="cta26-actions">
+                <a href="https://forms.gle/H8rvNUNshXD1AvMUA" target="_blank" rel="noopener noreferrer">
                 <button
-                  type="button"
-                  className="cta26-button thq-button-filled"
+                    type="button"
+                    className="cta26-button thq-button-filled"
+
                 >
-                  <span>
+                <span>
                     {props.action1 ?? (
-                      <Fragment>
-                        <span className="cta26-text5">Sign Up Now</span>
-                      </Fragment>
+                        <Fragment>
+                          <span className="cta26-text5">Sign Up Now</span>
+                        </Fragment>
                     )}
                   </span>
                 </button>
+                </a>
               </div>
             </div>
           </div>

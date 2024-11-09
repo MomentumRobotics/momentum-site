@@ -19,6 +19,9 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: space-between;
 }
+.navbar8-image2 {
+  height: 2rem;
+}
 .navbar8-image1 {
   height: 3rem;
 }

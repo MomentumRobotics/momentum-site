@@ -7,6 +7,8 @@ import {
   ConicTextGradient,
 } from "react-text-gradients-and-animations";
 import './features24.css'
+import instagramlogo from "./src/Assets/Instagramlogo.png"
+import facebooklogo from "./src/Assets/facebooklogo.png"
 
 const Features24 = (props) => {
   const [activeTab, setActiveTab] = useState(0)
@@ -15,7 +17,7 @@ const Features24 = (props) => {
       <div className="features24-container2 thq-section-max-width">
         <div className="features24-image-container">
           {activeTab === 0 && (
-            <div className="FTC"> <span className="bold-red"> First Tech Challenge (FTC)</span> este o competiție de robotică pentru
+            <div className="FTC"> <span className="sizetxt"> <RadialTextGradient shape={"circle"} position={"left"} colors={["#000000 0.1%","#fb9902" ,"#fb9902"]}>First Tech Challenge </RadialTextGradient></span>(FTC) este o competiție de robotică pentru
               tineri, unde echipe de elevi construiesc și programează roboți.
               Scopul este să-i învețe pe tineri despre <RadialTextGradient shape={"circle"} position={"center"} colors={["#D4145A" ,"#FBB03B"]}>  știință, tehnologie,
               inginerie și matematică </RadialTextGradient>(STEM),
@@ -25,30 +27,45 @@ const Features24 = (props) => {
               îndeplinească sarcini specifice într-un joc anual diferit.</div>
           )}
           {activeTab === 1 && (
-            <img
-              alt={props.feature2ImgAlt}
-              src={props.feature2ImgSrc}
-              className="features24-image2 thq-img-ratio-16-9"
-            />
+              <span className="Way"> <RadialTextGradient shape={"circle"} position={"top"}
+                                                         colors={["#396fb1", "#000000"]}><span className="sizetxt">Echipa Momentum</span></RadialTextGradient>  este un proiect lansat de echipa cunoscută
+              și calificată la nivel național <RadialTextGradient
+                    colors={["#ff0000", "#000000"]}> Velocity</RadialTextGradient> în cadrul <span className="gold">Colegiului Național “Nicolae Iorga”</span>.
+              Echipa Momentum este modalitatea <span className="gold">Colegiului “Nicolae Iorga”</span>  de a-și pune amprenta
+              în cadrul acestei comunități și de a crește o generație creativă,
+              cu cunoștințe atât la nivel tehnic cât și cele de natură socială. </span>
           )}
           {activeTab === 2 && (
-            <img
-              alt={props.feature3ImgAlt}
-              src={props.feature3ImgSrc}
-              className="features24-image3 thq-img-ratio-16-9"
-            />
-          )}
+             <div>
+                <div>
+                  <a href="https://www.instagram.com/momentum.robotics" target="_blank" rel="noopener noreferrer" className="instagram_1">
+                    <span>
+                     <img className="instagram" src={instagramlogo}></img>
+                     <span className="instagram_1"><LinearTextGradient angle={90} colors={["#833ab4", "#fd1d1d", "#fcb045"]}> Follow Us </LinearTextGradient></span>
+                    </span>
+                 </a>
+                </div>
+                <div>
+                  <a href="https://www.facebook.com/profile.php?id=61565332126966" target="_blank" rel="noopener noreferrer" className="facebook_1">
+                   <span>
+                     <img className="facebook" src={facebooklogo}></img>
+                     <span className="facebook_1">Follow Us </span>
+                    </span>
+                  </a>
+                </div>
+               </div>)
+          }
         </div>
         <div className="features24-tabs-menu">
           <div
-            onClick={() => setActiveTab(0)}
-            className="features24-tab-horizontal1"
+              onClick={() => setActiveTab(0)}
+              className="features24-tab-horizontal1"
           >
             <div className="features24-divider-container1">
               {activeTab === 0 && <div className="features24-container3"></div>}
             </div>
             <div className="features24-content1">
-              <h2 className="thq-heading-2">
+            <h2 className="thq-heading-2">
                 {props.feature1Title ?? (
                   <Fragment>
                     <span className="features24-text5">Feature 1 Title</span>
@@ -69,19 +86,10 @@ const Features24 = (props) => {
               <h2 className="thq-heading-2">
                 {props.feature2Title ?? (
                   <Fragment>
-                    <span className="features24-text2">Feature 2 Title</span>
+                    <span className="features24-text2">Cine suntem noi ?</span>
                   </Fragment>
                 )}
               </h2>
-              <span className="thq-body-small">
-                {props.feature2Description ?? (
-                  <Fragment>
-                    <span className="features24-text3">
-                      Description for Feature 2
-                    </span>
-                  </Fragment>
-                )}
-              </span>
             </div>
           </div>
           <div
@@ -99,15 +107,6 @@ const Features24 = (props) => {
                   </Fragment>
                 )}
               </h2>
-              <span className="thq-body-small">
-                {props.feature3Description ?? (
-                  <Fragment>
-                    <span className="features24-text4">
-                      Description for Feature 3
-                    </span>
-                  </Fragment>
-                )}
-              </span>
             </div>
           </div>
         </div>
