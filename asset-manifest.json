@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/momentum-site/static/css/main.fd835294.css",
+    "main.js": "/momentum-site/static/js/main.ac3ef7f7.js",
+    "static/media/a (5).png": "/momentum-site/static/media/a (5).e912597807691cc99c27.png",
+    "static/media/a (3).png": "/momentum-site/static/media/a (3).691e92d48e0aad76ce5f.png",
+    "static/media/a (1).png": "/momentum-site/static/media/a (1).f0470a688448dedd5b3d.png",
+    "static/media/a (6).png": "/momentum-site/static/media/a (6).04ea2353155940eb51c0.png",
+    "static/media/a (4).png": "/momentum-site/static/media/a (4).8c725fe6a7460575028c.png",
+    "static/media/a (2).png": "/momentum-site/static/media/a (2).7acc86971dd61d3e98ce.png",
+    "static/media/Bia.jpg": "/momentum-site/static/media/Bia.37c04779cbe22fdf0791.jpg",
+    "static/media/Mihai.jpg": "/momentum-site/static/media/Mihai.985fe68e3346c973835c.jpg",
+    "static/media/Misu.jpg": "/momentum-site/static/media/Misu.442fcd929fe235200137.jpg",
+    "static/media/Hagiul.jpg": "/momentum-site/static/media/Hagiul.49cd9a063fe8066202bd.jpg",
+    "static/media/Instagramlogo.png": "/momentum-site/static/media/Instagramlogo.9140a48abb4a057d51cb.png",
+    "static/media/logo.png": "/momentum-site/static/media/logo.9cce8efcb83231b1ad38.png",
+    "static/media/FTC logo.png": "/momentum-site/static/media/FTC logo.da7949c38781a1008ac5.png",
+    "index.html": "/momentum-site/index.html",
+    "main.fd835294.css.map": "/momentum-site/static/css/main.fd835294.css.map",
+    "main.ac3ef7f7.js.map": "/momentum-site/static/js/main.ac3ef7f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd835294.css",
+    "static/js/main.ac3ef7f7.js"
+  ]
+}
