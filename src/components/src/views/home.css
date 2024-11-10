@@ -168,3 +168,40 @@ body::-webkit-scrollbar {
   display: inline-block;
   font-family: "Space Mono", monospace;
 }
+@media (max-width:1080px) {
+  .home-container {
+    width: 100%;
+  }
+}
+@media (max-width:450px) {
+  .home-container {
+    width: auto; /* Reduce the width of the containers */
+    height: auto;
+    text-align: center; /* Center text */
+  }
+
+  .navbar8-image1 {
+    width: 36px;
+    height: 36px;
+  }
+
+  .navbar8-image2 {
+    display: none;
+  }
+}
+  @media (max-width:560px) {
+  .home-text10 {
+    margin-right: 15px;
+  }
+}
+@media (max-width: 340px) {
+  .home-text10{
+    display: none;
+  }
+  .home-text11{
+    display: none;
+  }
+  .home-text13{
+    display: none;
+  }
+}
