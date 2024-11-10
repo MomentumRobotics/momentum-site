@@ -5,6 +5,11 @@
   align-items: center;
   flex-direction: column;
 }
+@media (max-width: 460px) {
+  .about-container {
+    width: 460px;
+  }
+}
 body{
   font-family: "Space Mono", monospace;
 }
@@ -208,65 +213,291 @@ body{
   align-content: center;
   horiz-align: center;
   vertical-align: center;
-  font : 400 48px "Space Mono", monospace;
+  font : 1000 58px "Space Mono", monospace;
   font-weight: bolder;
   margin-bottom: 40px;
 }
 .Leaders{
   font:1000 38px "Space Mono", monospace;
+  line-height: 0;
   align-content: center;
   horiz-align: center;
   vertical-align: center;
 
   margin-bottom: 50px;
 }
-.Picture and name{
-  font-family: "Space Mono", monospace;
-  display: inline-block;
-}
+
 .image{
+  display: block;
+  margin: 0 auto;
   font-family: "Space Mono", monospace;
   align-items: center;
   height: 200px;
   border-radius: 10%;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  display: inline-block; /* Show on hover */
+
   text-align: center; /* Center the text */
   align-content: center;
   horiz-align: center;
   vertical-align: center;
+  position: relative;
+  justify-content: center;
+
 }
 .image:hover{
   font-family: "Space Mono", monospace;
   scale: 1.1;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  horiz-align: center;
+  vertical-align: center;
+  position: relative;
+  text-align: center;
 }
 .hide{
   font-family: "Space Mono", monospace;
-  display: block; /* Show on hover */
-  text-align: center; /* Center the text */
+  display: grid; /* Show on hover */
   align-content: center;
   horiz-align: center;
   vertical-align: center;
   opacity: 0;
   transition: opacity 0.3s ease;
   margin: 20px 30px 30px;
-  font-family: "Space Mono", monospace;
-}
-.hide{
+  position: relative;
+  text-align: center;
   font: 1000 18px "Space Mono", monospace;
 }
 .image:hover + .hide{
-  font-family: "Space Mono", monospace;
   opacity: 1;
-  display: block; /* Show on hover */
-  text-align: center; /* Center the text */
-  align-content: center;
-  horiz-align: center;
-  vertical-align: center;
-  position: relative; /* For precise alignment */
-   /* Add hover scaling for text */
-  transition: color 0.3s ease;
-   /* Space from the image */
+}
+/* Flex container for images */
+.picture-and-name1 {
+  display: flex; /* Arrange items in a row */
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+  justify-content: center; /* Center images horizontally */
+  gap: 20px; /* Space between images */
+  padding: 20px;
+  width: 100%; /* Ensure the container takes full width */
+  box-sizing: border-box; /* Include padding in width */
+}
 
+/* Image container styling */
+.image-container {
+  display: flex; /* Use flex to align image and text */
+  flex-direction: column; /* Stack image and text vertically */
+  justify-content: flex-start; /* Align text and images at the top */
+  align-items: center; /* Center content horizontally */
+  width: 200px; /* Fixed width for image container */
+  text-align: center;
+  flex-shrink: 0; /* Prevent image container from shrinking */
+  margin-bottom: 20px; /* Add space between rows */
+  position: relative; /* For absolute positioning of text */
+  box-sizing: border-box; /* Ensure padding and borders are included in the element's width/height */
+}
+
+/* Styling for images */
+.image1 {
+  width: 100%; /* Full width of container */
+  height: 200px; /* Fixed height for images */
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 10%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for image */
+.image1:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+/* Styling for name text (visible on hover) */
+.hide1 {
+  margin-top: 10px;
+  font-family: "Space Mono", monospace;
+  font-size: 18px;
+  color: black;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Fade in effect */
+  white-space: normal; /* Allow wrapping */
+  overflow: hidden; /* Prevent overflow */
+  text-overflow: ellipsis; /* Display ellipsis when text overflows */
+  display: block; /* Make it block-level element */
+  max-width: 100%; /* Ensure text stays within bounds */
+  line-height: 1.3; /* Line height for better spacing */
+  min-height: 40px; /* Ensure enough space for wrapped text */
+}
+
+/* Display name on hover */
+.image-container:hover .hide1 {
+  opacity: 1;
+}
+
+/* Styling for department text (visible on hover) */
+.hide2 {
+  margin-top: 5px;
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  color: gray;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Prevent overflow */
+  text-overflow: ellipsis;
+  display: block; /* Make it block-level element */
+}
+
+/* Display department on hover */
+.image-container:hover .hide2 {
+  opacity: 1;
+}
+.picture-and-name1 {
+  display: flex; /* Arrange items in a row */
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+  justify-content: center; /* Center images horizontally */
+  gap: 20px; /* Space between images */
+  padding: 20px;
+  width: 100%; /* Ensure the container takes full width */
+  box-sizing: border-box; /* Include padding in width */
+  max-width: 1200px; /* Optional: Limit the container's max width */
+}
+
+/* Image container styling */
+.image-container {
+  display: flex; /* Use flex to align image and text */
+  flex-direction: column; /* Stack image and text vertically */
+  justify-content: flex-start; /* Align text and images at the top */
+  align-items: center; /* Center content horizontally */
+  width: 200px; /* Fixed width for image container */
+  text-align: center;
+  flex-shrink: 0; /* Prevent image container from shrinking */
+  margin-bottom: 20px; /* Add space between rows */
+  position: relative; /* To position the pseudo-element */
+  box-sizing: border-box; /* Ensure padding and borders are included in the element's width/height */
+}
+
+/* Styling for images */
+.image1 {
+  width: 100%; /* Full width of container */
+  height: 200px; /* Fixed height for images */
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 10%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition */
+  position: relative;
+  z-index: 1; /* Make sure image stays on top of the pseudo-element */
+}
+
+/* Add gradient border inside the image on hover using box-shadow */
+.image-container:hover .image1 {
+  box-shadow: 0 0 0 5px inset rgba(0, 0, 0, 0.4), 0 0 10px rgb(0, 0, 255); /* Gradient shadow inside */
+  transform: scale(1.05); /* Slightly enlarge image */
+}
+
+/* Styling for name text (visible on hover) */
+.hide1 {
+  margin-top: 10px;
+  font-family: "Space Mono", monospace;
+  font-size: 18px;
+  color: black;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  white-space: normal;
+  word-wrap: break-word; /* Allows the text to wrap on long words */
+  overflow-wrap: break-word; /* Breaks words that exceed the container */
+  display: block;
+  max-width: 100%;
+  line-height: 1.3;
+  min-height: 40px;
+}
+
+/* Department Text (Visible on Hover) */
+.hide2 {
+  margin-top: 5px;
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  color: gray;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  white-space: normal;
+  word-wrap: break-word; /* Allows the text to wrap on long words */
+  overflow-wrap: break-word; /* Breaks words that exceed the container */
+  display: block;
+  max-width: 100%;
+}
+
+
+/* Display name on hover */
+.image-container:hover .hide1 {
+  opacity: 1;
+}
+
+/* Display department on hover */
+.image-container:hover .hide2 {
+  opacity: 1;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 1200px) {
+  .image-container {
+    width: 180px; /* Reduce width on smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+  }
+  .hide1 {
+    font-size: 16px; /* Smaller font size for name */
+    white-space: normal; /* Allow wrapping on smaller screens */
+  }
+  .hide2 {
+    font-size: 14px; /* Smaller font size for department */
+  }
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    width: 150px; /* Further reduce width for mobile screens */
+    height: auto; /* Allow height to adjust based on content */
+  }
+  .hide1 {
+    font-size: 14px; /* Smaller font size for name */
+  }
+  .hide2 {
+    font-size: 12px; /* Smaller font size for department */
+  }
+}
+
+@media (max-width: 602px) {
+  .image-container {
+    width: 150px; /* Slightly reduce size on very small screens */
+  }
+  .hide1 {
+    font-size: 14px; /* Ensure text is readable */
+  }
+  .hide2 {
+    font-size: 12px; /* Ensure department text is still readable */
+  }
+}
+
+/* Ensure layout stays centered even on very small screens */
+@media (max-width: 460px) {
+  .picture-and-name1 {
+    padding: 10px; /* Reduce padding to fit on small screens */
+    justify-content: center; /* Ensure content is centered */
+    gap: 10px; /* Reduce space between items */
+  }
+
+  .image-container {
+    width: 120px; /* Reduce the width of the containers */
+    height: auto;
+    text-align: center; /* Center text */
+  }
+
+  .hide1 {
+    font-size: 12px; /* Smaller font size for names */
+    line-height: 1.2; /* Adjust line height for smaller text */
+  }
+
+  .hide2 {
+    font-size: 10px; /* Even smaller font size for department text */
+  }
+
+  .image1 {
+    height: 150px; /* Reduce image height on small screens */
+  }
 }
