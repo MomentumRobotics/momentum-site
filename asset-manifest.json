@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/momentum-site/static/css/main.dcae52ae.css",
-    "main.js": "/momentum-site/static/js/main.c9c8c3d6.js",
+    "main.js": "/momentum-site/static/js/main.ad05b2ab.js",
     "static/media/a (5).png": "/momentum-site/static/media/a (5).e912597807691cc99c27.png",
     "static/media/a (3).png": "/momentum-site/static/media/a (3).691e92d48e0aad76ce5f.png",
     "static/media/a (1).png": "/momentum-site/static/media/a (1).f0470a688448dedd5b3d.png",
     "static/media/a (6).png": "/momentum-site/static/media/a (6).04ea2353155940eb51c0.png",
     "static/media/a (4).png": "/momentum-site/static/media/a (4).8c725fe6a7460575028c.png",
     "static/media/a (2).png": "/momentum-site/static/media/a (2).7acc86971dd61d3e98ce.png",
+    "static/media/Maria.jpg": "/momentum-site/static/media/Maria.df009eab5e701ee57979.jpg",
     "static/media/Darian.jpg": "/momentum-site/static/media/Darian.71537af954895e294e84.jpg",
     "static/media/Bia.jpg": "/momentum-site/static/media/Bia.37c04779cbe22fdf0791.jpg",
     "static/media/Mihai.jpg": "/momentum-site/static/media/Mihai.985fe68e3346c973835c.jpg",
@@ -18,10 +19,10 @@
     "static/media/FTC logo.png": "/momentum-site/static/media/FTC logo.da7949c38781a1008ac5.png",
     "index.html": "/momentum-site/index.html",
     "main.dcae52ae.css.map": "/momentum-site/static/css/main.dcae52ae.css.map",
-    "main.c9c8c3d6.js.map": "/momentum-site/static/js/main.c9c8c3d6.js.map"
+    "main.ad05b2ab.js.map": "/momentum-site/static/js/main.ad05b2ab.js.map"
   },
   "entrypoints": [
     "static/css/main.dcae52ae.css",
-    "static/js/main.c9c8c3d6.js"
+    "static/js/main.ad05b2ab.js"
   ]
 }
