@@ -73,14 +73,10 @@ const About = (props) => {
               <span className="Leaders"><LinearTextGradient angle={45} colors={["#185a9d","#43cea2"]}>Leaders</LinearTextGradient></span>
           </div>
           <div className="picture-and-name1">
-              <div className="image-container">
-                  <img className="image1" src={hagiul} alt="Hagiul"/>
-                  <span className="hide1">Haigu Andrei</span> {/* Name Text */}
-                  <span className="hide2">Lider Constructie</span> {/* Department Text */}
-              </div>
+
               <div className="image-container">
                   <img className="image1" src={misu} alt="Misu"/>
-                  <span className="hide1">Mihai</span> {/* Name Text */}
+                  <span className="hide1">Vîlcu Mihai Rareș</span> {/* Name Text */}
                   <span className="hide2">Lider Programare</span> {/* Department Text */}
               </div>
               <div className="image-container">
@@ -89,23 +85,28 @@ const About = (props) => {
                   <span className="hide2">Lider Web Design</span> {/* Department Text */}
               </div>
               <div className="image-container">
+                  <img className="image1" src={hagiul} alt="Hagiul"/>
+                  <span className="hide1">Hagiu Andrei Răzvan</span> {/* Name Text */}
+                  <span className="hide2">Lider Constructie</span> {/* Department Text */}
+              </div>
+              <div className="image-container">
                   <img className="image1" src={Maria} alt="Bianca"/>
-                  <span className="hide1">Maria</span> {/* Name Text */}
+                  <span className="hide1">Gherghina Maria Carmen</span> {/* Name Text */}
                   <span className="hide2">Lider Marketing</span> {/* Department Text */}
               </div>
               <div className="image-container">
                   <img className="image1" src={Darian} alt="Bianca"/>
-                  <span className="hide1">Darian</span> {/* Name Text */}
+                  <span className="hide1">Munteanu Darian</span> {/* Name Text */}
                   <span className="hide2">Lider Jurnal</span> {/* Department Text */}
               </div>
               <div className="image-container">
                   <img className="image1" src={ftc} alt="Bianca"/>
-                  <span className="hide1">Rareș</span> {/* Name Text */}
+                  <span className="hide1">Dragomir Cotigă Rareș</span> {/* Name Text */}
                   <span className="hide2">Lider Design</span> {/* Department Text */}
               </div>
               <div className="image-container">
                   <img className="image1" src={ftc} alt="Bianca"/>
-                  <span className="hide1">Ionuț</span> {/* Name Text */}
+                  <span className="hide1">Gavrila Ionuț Damian</span> {/* Name Text */}
                   <span className="hide2">Lider 3D Design</span> {/* Department Text */}
               </div>
           </div>

@@ -387,7 +387,7 @@ body{
 
 /* Add gradient border inside the image on hover using box-shadow */
 .image-container:hover .image1 {
-  box-shadow: 0 0 0 5px inset rgba(0, 0, 0, 0.4), 0 0 10px rgb(0, 0, 255); /* Gradient shadow inside */
+  box-shadow: 0 0 0 5px inset rgba(0, 0, 0, 0.4), 0 0 10px rgb(0, 135, 168);
   transform: scale(1.05); /* Slightly enlarge image */
 }
 
