@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/momentum-site/static/css/main.dcae52ae.css",
+    "main.css": "/momentum-site/static/css/main.d35e14bb.css",
     "main.js": "/momentum-site/static/js/main.ad05b2ab.js",
     "static/media/a (5).png": "/momentum-site/static/media/a (5).e912597807691cc99c27.png",
     "static/media/a (3).png": "/momentum-site/static/media/a (3).691e92d48e0aad76ce5f.png",
@@ -18,11 +18,11 @@
     "static/media/logo.png": "/momentum-site/static/media/logo.9cce8efcb83231b1ad38.png",
     "static/media/FTC logo.png": "/momentum-site/static/media/FTC logo.da7949c38781a1008ac5.png",
     "index.html": "/momentum-site/index.html",
-    "main.dcae52ae.css.map": "/momentum-site/static/css/main.dcae52ae.css.map",
+    "main.d35e14bb.css.map": "/momentum-site/static/css/main.d35e14bb.css.map",
     "main.ad05b2ab.js.map": "/momentum-site/static/js/main.ad05b2ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcae52ae.css",
+    "static/css/main.d35e14bb.css",
     "static/js/main.ad05b2ab.js"
   ]
 }
