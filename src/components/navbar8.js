@@ -56,10 +56,9 @@ const Navbar8 = (props) => {
               )}
             </a>
           </nav>
-          <img
-              src={ftc}
-              className="navbar8-image2"
-          />
+
+          <a href="https://www.firstinspires.org/robotics/ftc"> <img src={ftc} className="navbar8-image2"/>
+          </a>
         </div>
         <div data-thq="thq-burger-menu" className="navbar8-burger-menu">
         <svg viewBox="0 0 1024 1024" className="navbar8-icon1">
