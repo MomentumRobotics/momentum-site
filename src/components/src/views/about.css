@@ -344,7 +344,21 @@ body{
   text-overflow: ellipsis;
   display: block; /* Make it block-level element */
 }
+.hide3 {
+  margin-top: 10px;
+  font-family: "Space Mono", monospace;
+  font-size: 18px;
+  color: black;
 
+  transition: opacity 0.3s ease; /* Fade in effect */
+  white-space: normal; /* Allow wrapping */
+  overflow: hidden; /* Prevent overflow */
+  text-overflow: ellipsis; /* Display ellipsis when text overflows */
+  display: block; /* Make it block-level element */
+  max-width: 100%; /* Ensure text stays within bounds */
+  line-height: 1.3; /* Line height for better spacing */
+  min-height: 40px; /* Ensure enough space for wrapped text */
+}
 /* Display department on hover */
 .image-container:hover .hide2 {
   opacity: 1;
@@ -500,4 +514,24 @@ body{
   .image1 {
     height: 150px; /* Reduce image height on small screens */
   }
+}
+.hr{
+  border-bottom-color: black;
+}
+.thq-divider-horizontal{
+  width: 60%;
+
+}
+
+.Way{
+  font: 400 20px  "Space Mono", monospace;
+
+}
+.sponsors{
+  font: 700 20px "Space Mono", monospace;
+  text-align: start;
+  width: 50%;
+}
+.paragraph{
+  margin-left: 50px;
 }

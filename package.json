@@ -5,6 +5,10 @@
   "homepage": "https://momentumrobotics.github.io/momentum-site/#/",
   "dependencies": {
     "@craco/craco": "^5.9.0",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.6",
+    "@mui/material": "^6.1.6",
     "compressorjs": "^1.2.1",
     "craco-less": "^3.0.1",
     "dangerous-html": "0.1.13",

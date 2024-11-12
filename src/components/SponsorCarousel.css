@@ -1,0 +1,96 @@
+.carousel {
+    position: relative;
+    width: 600px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.carousel-slides {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Stack images and name vertically */
+}
+
+.carousel-image {
+    position: absolute;
+    width: 300px; /* Center image width */
+    height: 200px; /* Center image height */
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+}
+
+.carousel-image.center-slide {
+    z-index: 2;
+    opacity: 1;
+    transform: scale(1.2); /* Make the center image larger */
+}
+
+.carousel-image.left-slide {
+    z-index: 1;
+    opacity: 0.5;
+    transform: translateX(-150%) scale(0.8); /* Move to the left and make it smaller */
+}
+
+.carousel-image.right-slide {
+    z-index: 1;
+    opacity: 0.5;
+    transform: translateX(150%) scale(0.8); /* Move to the right and make it smaller */
+}
+
+
+
+.control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgb(77, 99, 151);
+    color: rgba(255, 255, 255, 0.78);
+    border: none;
+    border-radius: 12px;
+    font-size: 2em;
+    cursor: pointer;
+    padding: 0 10px;
+    z-index: 10;
+}
+
+.control.left {
+    left: 0;
+}
+
+.control.right {
+    right: 0;
+}
+
+.color {
+    color: #86b7ff;
+}
+.sponsor-name {
+    margin-top: 300px; /* Adjust based on image height */
+    font-size: 1.2em;
+    color: #4d6397; /* Adjust color as needed */
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    animation: morph 0.5s ease; /* Apply the morph effect */
+}
+
+@keyframes morph {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
