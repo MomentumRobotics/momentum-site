@@ -219,6 +219,16 @@ body{
 }
 .Leaders{
   font:1000 38px "Space Mono", monospace;
+  margin-top: 30px;
+  line-height: 0;
+  align-content: center;
+  horiz-align: center;
+  vertical-align: center;
+
+  margin-bottom: 50px;
+}
+.Leaders1{
+  font:1000 38px "Space Mono", monospace;
   line-height: 0;
   align-content: center;
   horiz-align: center;
@@ -519,7 +529,7 @@ body{
   border-bottom-color: black;
 }
 .thq-divider-horizontal{
-  width: 60%;
+  width: 50%;
 
 }
 

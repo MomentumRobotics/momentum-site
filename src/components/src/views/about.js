@@ -1,36 +1,48 @@
 import React, { Fragment } from 'react'
 
 import { Helmet } from 'react-helmet'
+import {LinearTextGradient, RadialTextGradient} from "react-text-gradients-and-animations";
 
 const sponsorImages = [
     {src: EUROBUILDING, name: "Euro Building"},
     {src: sp2, name: "S.C. Consamar Hidroizolatii S.R.L."}
-
-
-    // Add more images as needed
 ];
+const images = [
+    {src: EUROBUILDING},
+    {src: sp2}
+
+];
+
 import sp2 from '../Assets/sp2.JPG'
 import Navbar8 from '../../navbar8'
-import Hero8 from '../../hero8'
-import Stats2 from '../../stats2'
-import Logos1 from '../../logos1'
-import Features1 from '../../features1'
-import Team1 from '../../team1'
 import SponsorCarousel from "../../SponsorCarousel";
 import Footer4 from '../../footer4'
 import './about.css'
+
+import Doroftei from '../Assets/IMG_7905.jpg'
+import matei from '../Assets/IMG_9865.jpg'
+import Lavinia from '../Assets/IMG_9854.jpg'
+import Magda from '../Assets/Magda.jpg'
+import sisu from '../Assets/sisu.jpg'
+import Ionut from '../Assets/Ionut.jpg'
+import Rares from '../Assets/Rares.jpg'
 import misu from '../Assets/Misu.jpg'
 import mihai from '../Assets/Mihai.jpg'
 import bia from '../Assets/Bia.jpg'
 import hagiul from '../Assets/Hagiul.jpg'
 import Darian from '../Assets/Darian.jpg'
 import Maria from  '../Assets/Maria.jpg'
-import ScrollToTop from '../../scroll';
-import ftc from '../Assets/FTC logo.png'
-import Mentor from '../Assets/Mentor.jpg'
 import darius from '../Assets/Darius.jpg'
+
+import ScrollToTop from '../../scroll';
+
+import ftc from '../Assets/FTC logo.png'
 import EUROBUILDING from '../Assets/EURO-BUILDING.jpg'
-import {LinearTextGradient, RadialTextGradient} from "react-text-gradients-and-animations";
+import Gallery8 from "../../gallery8";
+
+
+
+
 const About = (props) => {
   return (
       <div className="about-container">
@@ -68,12 +80,16 @@ const About = (props) => {
               <span className="Our_Team"><LinearTextGradient angle={45}
                                                              colors={["#ffd820", "#69af22"]}>Sponsors</LinearTextGradient></span>
           </div>
-          <div className="sponsors"><span className="paragraph">Suntem extrem de recunoscători</span> sponsorilor noștri, a căror susținere generoasă ne
-              alimentează pasiunea și dedicarea. Parteneriatul lor ne ajută să ne depășim limitele, să inovăm și să tindem
-              spre excelență în tot ceea ce facem. Mai jos, veți găsi companiile și organizațiile extraordinare care sunt
+          <div className="sponsors"><span className="paragraph">Suntem extrem de recunoscători</span> sponsorilor
+              noștri, a căror susținere generoasă ne
+              alimentează pasiunea și dedicarea. Parteneriatul lor ne ajută să ne depășim limitele, să inovăm și să
+              tindem
+              spre excelență în tot ceea ce facem. Mai jos, veți găsi companiile și organizațiile extraordinare care
+              sunt
               alături de noi, ajutându-ne să ne atingem obiectivele. Vă mulțumim că aveți încredere în noi!
           </div>
-          <SponsorCarousel images={sponsorImages} />
+          <SponsorCarousel images={sponsorImages}/>
+          <Gallery8/>
           <div className="thq-divider-horizontal"></div>
           <div className="Our_Team">
               <span className="Our_Team"><LinearTextGradient angle={45}
@@ -91,14 +107,14 @@ const About = (props) => {
               </div>
 
           </div>
-
+          <div className="thq-divider-horizontal"><span className="thq-divider-horizontal"></span></div>
           <div className="Leaders">
               <span className="Leaders"><LinearTextGradient angle={45}
                                                             colors={["#185a9d", "#43cea2"]}>Departament</LinearTextGradient></span>
           </div>
-          <div className="Leaders">
-              <span className="Leaders"><LinearTextGradient angle={45}
-                                                            colors={["#185a9d", "#43cea2"]}>Leaders</LinearTextGradient></span>
+          <div className="Leaders1">
+              <span className="Leaders1"><LinearTextGradient angle={45}
+                                                             colors={["#185a9d", "#43cea2"]}>Leaders</LinearTextGradient></span>
           </div>
 
           <div className="picture-and-name1">
@@ -129,29 +145,19 @@ const About = (props) => {
                   <span className="hide2">Lider Jurnal</span> {/* Department Text */}
               </div>
               <div className="image-container">
-                  <img className="image1" src={ftc} alt="Bianca"/>
+                  <img className="image1" src={Rares} alt="Bianca"/>
                   <span className="hide1">Dragomir Cotigă Rareș</span> {/* Name Text */}
                   <span className="hide2">Lider Design</span> {/* Department Text */}
               </div>
               <div className="image-container">
-                  <img className="image1" src={ftc} alt="Bianca"/>
+                  <img className="image1" src={Ionut} alt="Bianca"/>
                   <span className="hide1">Gavrila Ionuț Damian</span> {/* Name Text */}
                   <span className="hide2">Lider 3D Design</span> {/* Department Text */}
               </div>
-          </div>
-          <div className="Leaders">
-              <span className="Leaders"><LinearTextGradient angle={45}
-                                                            colors={["#1D2671", "#C33764"]}>Mentors</LinearTextGradient></span>
-          </div>
-          <div className="picture-and-name1">
-
-              <div className="image-container">
-                  <img className="image1" src={Mentor} alt="Mentor_1"/>
-                  <span className="hide1">Nume Mentor</span> {/* Name Text */}
-              </div>
-
 
           </div>
+          <div className="thq-divider-horizontal"><span className="thq-divider-horizontal"></span></div>
+
           <div className="Leaders">
               <span className="Leaders"><LinearTextGradient angle={45}
                                                             colors={["#20e448", "#216da3", "#2f21a3"]}>Members</LinearTextGradient></span>
@@ -160,9 +166,36 @@ const About = (props) => {
 
               <div className="image-container">
                   <img className="image1" src={darius} alt="membru"/>
-                  <span className="hide1">Nume membru</span> {/* Name Text */}
+                  <span className="hide1">Darius</span> {/* Name Text */}
+              </div>
+              <div className="image-container">
+                  <img className="image1" src={sisu} alt="membru"/>
+                  <span className="hide1">Sisu</span> {/* Name Text */}
+              </div>
+              <div className="image-container">
+                  <img className="image1" src={Magda} alt="membru"/>
+                  <span className="hide1">Magda</span> {/* Name Text */}
+              </div>
+              <div className="image-container">
+                  <img className="image1" src={Lavinia} alt="membru"/>
+                  <span className="hide1">Lavinia</span> {/* Name Text */}
+              </div>
+              <div className="image-container">
+                  <img className="image1" src={matei} alt="membru"/>
+                  <span className="hide1">Matei</span> {/* Name Text */}
+              </div>
+              <div className="image-container">
+                  <img className="image1" src={ftc} alt="membru"/>
+                  <span className="hide1">Matei</span> {/* Name Text */}
+              </div>
+
+              <div className="image-container">
+                  <img className="image1" src={Doroftei} alt="membru"/>
+                  <span className="hide1">Doroftei</span> {/* Name Text */}
               </div>
           </div>
+
+
           <Footer4
               link1={
                   <Fragment>

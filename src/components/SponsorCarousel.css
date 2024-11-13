@@ -1,6 +1,7 @@
 .carousel {
     position: relative;
-    width: 600px; /* Adjust as needed */
+    width: 100%; /* Make carousel responsive */
+    max-width: 600px; /* Set max width */
     height: 400px; /* Adjust as needed */
     overflow: hidden;
     display: flex;
@@ -43,8 +44,6 @@
     transform: translateX(150%) scale(0.8); /* Move to the right and make it smaller */
 }
 
-
-
 .control {
     position: absolute;
     top: 50%;
@@ -70,6 +69,7 @@
 .color {
     color: #86b7ff;
 }
+
 .sponsor-name {
     margin-top: 300px; /* Adjust based on image height */
     font-size: 1.2em;
@@ -92,5 +92,61 @@
     100% {
         opacity: 1;
         transform: scale(1);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .carousel {
+        max-width: 450px; /* Reduce carousel width */
+        height: 300px; /* Adjust height for smaller screens */
+    }
+
+    .carousel-image {
+        width: 250px; /* Reduce image size */
+        height: 170px;
+    }
+
+    .sponsor-name {
+        margin-top: 260px;
+        font-size: 1em; /* Reduce font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel {
+        max-width: 320px; /* Further reduce carousel width */
+        height: 240px;
+        margin-bottom: 10px/* Adjust height for smaller screens */
+    }
+
+    .carousel-image {
+        width: 200px; /* Smaller image size */
+        height: 140px;
+    }
+
+    .sponsor-name {
+        margin-top: 200px;
+        font-size: 0.8em;
+        margin-bottom: 10px/* Smaller font size */
+    }
+}
+@media (max-width: 600px) {
+    .carousel {
+        max-width: 320px; /* Further reduce carousel width */
+        height: 280px;
+
+        /* Adjust height for smaller screens */
+    }
+
+    .carousel-image {
+        width: 200px; /* Smaller image size */
+        height: 140px;
+    }
+
+    .sponsor-name {
+        margin-top:240px;
+        font-size: 0.8em;
+
     }
 }
