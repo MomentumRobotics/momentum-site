@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/momentum-site/static/css/main.c1aee9b9.css",
-    "main.js": "/momentum-site/static/js/main.24d74a36.js",
+    "main.css": "/momentum-site/static/css/main.8cfcfcd3.css",
+    "main.js": "/momentum-site/static/js/main.ab91d1f4.js",
     "static/media/a (5).png": "/momentum-site/static/media/a (5).e912597807691cc99c27.png",
     "static/media/a (3).png": "/momentum-site/static/media/a (3).691e92d48e0aad76ce5f.png",
     "static/media/a (1).png": "/momentum-site/static/media/a (1).f0470a688448dedd5b3d.png",
@@ -12,21 +12,27 @@
     "static/media/Darian.jpg": "/momentum-site/static/media/Darian.71537af954895e294e84.jpg",
     "static/media/EURO-BUILDING.jpg": "/momentum-site/static/media/EURO-BUILDING.a2722c1624b607b3d9c9.jpg",
     "static/media/Bia.jpg": "/momentum-site/static/media/Bia.37c04779cbe22fdf0791.jpg",
+    "static/media/Rares.jpg": "/momentum-site/static/media/Rares.7dec7d19a7e5e6381f77.jpg",
+    "static/media/IMG_9854.jpg": "/momentum-site/static/media/IMG_9854.a260ddcd5282dc36eb89.jpg",
     "static/media/Darius.jpg": "/momentum-site/static/media/Darius.e1f7b8f9e4bc6996227e.jpg",
     "static/media/Mihai.jpg": "/momentum-site/static/media/Mihai.985fe68e3346c973835c.jpg",
     "static/media/Misu.jpg": "/momentum-site/static/media/Misu.442fcd929fe235200137.jpg",
+    "static/media/Magda.jpg": "/momentum-site/static/media/Magda.e495b241f3f473112b67.jpg",
     "static/media/Hagiul.jpg": "/momentum-site/static/media/Hagiul.49cd9a063fe8066202bd.jpg",
-    "static/media/Mentor.jpg": "/momentum-site/static/media/Mentor.73413e981e6462160222.jpg",
+    "static/media/IMG_9865.jpg": "/momentum-site/static/media/IMG_9865.794763911bb91b3c7ded.jpg",
+    "static/media/Ionut.jpg": "/momentum-site/static/media/Ionut.722e5c0c596461a24a07.jpg",
+    "static/media/IMG_7905.jpg": "/momentum-site/static/media/IMG_7905.c4e270255a519012b279.jpg",
+    "static/media/sisu.jpg": "/momentum-site/static/media/sisu.747ab19db75f737a01af.jpg",
     "static/media/Instagramlogo.png": "/momentum-site/static/media/Instagramlogo.9140a48abb4a057d51cb.png",
     "static/media/logo.png": "/momentum-site/static/media/logo.9cce8efcb83231b1ad38.png",
     "static/media/sp2.JPG": "/momentum-site/static/media/sp2.bededf32af72ca4d3ad3.JPG",
     "static/media/FTC logo.png": "/momentum-site/static/media/FTC logo.da7949c38781a1008ac5.png",
     "index.html": "/momentum-site/index.html",
-    "main.c1aee9b9.css.map": "/momentum-site/static/css/main.c1aee9b9.css.map",
-    "main.24d74a36.js.map": "/momentum-site/static/js/main.24d74a36.js.map"
+    "main.8cfcfcd3.css.map": "/momentum-site/static/css/main.8cfcfcd3.css.map",
+    "main.ab91d1f4.js.map": "/momentum-site/static/js/main.ab91d1f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1aee9b9.css",
-    "static/js/main.24d74a36.js"
+    "static/css/main.8cfcfcd3.css",
+    "static/js/main.ab91d1f4.js"
   ]
 }
