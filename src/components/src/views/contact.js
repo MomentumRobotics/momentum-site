@@ -59,19 +59,27 @@ const Contact = (props) => {
         }
         email={
           <Fragment>
-            <span className="contact-text17">contact@roboticscompany.com</span>
+            <span className="contact-text17">momentumrobotics25@gmail.com</span>
           </Fragment>
         }
         content2={
           <Fragment>
             <span className="contact-text18">
-              For immediate assistance, give us a call.
-            </span>
+              Become a Sponsor – Support the Future of Robotics</span>
+           <span> Support Momentum Robotics as we compete in First Tech Challange and inspire the next generation of
+            engineers.</span>
+            <p>
+Why Sponsor Us?
+  </p>
+            <p>-Showcase your brand at events.</p>
+            <p>-Engage with the STEM community.</p>
+            <p>-Support innovation in robotics.</p>
+
           </Fragment>
         }
         phone1={
           <Fragment>
-            <span className="contact-text19">+123-456-7890</span>
+            <span className="contact-text19">+40 748 583 856  Bianca</span>
           </Fragment>
         }
         heading1={
@@ -82,32 +90,26 @@ const Contact = (props) => {
         address1={
           <Fragment>
             <span className="contact-text21">
-              123 Robotics Street, Cityville, Country
+              Strada Radu S. Campiniu 4-6, Brăila 810003, România
             </span>
           </Fragment>
         }
         content3={
           <Fragment>
             <span className="contact-text22">
-              Our customer support team is available 24/7 to assist you.
-            </span>
+                Have a question you want answers from us?</span> <p>Give Us Call Us !</p>
+
           </Fragment>
         }
         content5={
           <Fragment>
             <span className="contact-text23">
-              Join our community to stay updated on the latest news and offers.
+              Where Will You find Us ?
             </span>
           </Fragment>
         }
       ></Contact11>
-      <Logos3
-        heading1={
-          <Fragment>
-            <span className="contact-text24">Our Logos</span>
-          </Fragment>
-        }
-      ></Logos3>
+
       <Footer4
         link1={
           <Fragment>

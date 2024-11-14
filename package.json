@@ -22,7 +22,8 @@
     "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^5.2.0",
-    "react-text-gradients-and-animations": "^1.1.7"
+    "react-text-gradients-and-animations": "^1.1.7",
+    "swiper": "^11.1.14"
   },
   "scripts": {
     "start": "craco start",

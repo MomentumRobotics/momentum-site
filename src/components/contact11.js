@@ -41,7 +41,14 @@ const Contact11 = (props) => {
                   {props.content2 ?? (
                     <Fragment>
                       <span className="contact11-text21">
-                        For immediate assistance, give us a call.
+                        Become a Sponsor – Support the Future of Robotics
+Support Momentum Robotics as we compete in First Tech Challange and inspire the next generation of engineers.
+
+Why Sponsor Us?
+
+-Showcase your brand at events.
+-Engage with the STEM community.
+-Support innovation in robotics.
                       </span>
                     </Fragment>
                   )}
@@ -50,7 +57,7 @@ const Contact11 = (props) => {
                   {props.email ?? (
                     <Fragment>
                       <span className="contact11-text20">
-                        contact@roboticscompany.com
+
                       </span>
                     </Fragment>
                   )}
@@ -75,10 +82,11 @@ const Contact11 = (props) => {
                 </p>
                 <span className="thq-body-small">
                   {props.phone1 ?? (
-                    <Fragment>
-                      <span className="contact11-text22">+123-456-7890</span>
-                    </Fragment>
-                  )}
+                      <Fragment>
+                        <span className="contact11-text22">+123-456-7890 Bianca</span><span>Bianca</span>
+                      </Fragment>
+
+                    )}
                 </span>
               </div>
             </div>
@@ -92,8 +100,6 @@ const Contact11 = (props) => {
                   {props.content5 ?? (
                     <Fragment>
                       <span className="contact11-text26">
-                        Join our community to stay updated on the latest news
-                        and offers.
                       </span>
                     </Fragment>
                   )}
@@ -111,7 +117,7 @@ const Contact11 = (props) => {
             </div>
           </div>
 
-          //<iframe
+          <iframe
             src={props.location1GoogleMap}
             title="Map"
             className="contact11-iframe thq-img-ratio-16-9"
@@ -126,7 +132,7 @@ Contact11.defaultProps = {
   content1: undefined,
   email: undefined,
   location1GoogleMap:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91160.77077631063!2d26.012237766112886!3d44.43779612993267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1f93abf3cad4f%3A0xac0632e37c9ca628!2sBucharest!5e0!3m2!1sen!2sro!4v1713441854828!5m2!1sen!2sro',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d256.1328866679167!2d27.973057038557435!3d45.269319690548734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b729ea32fe89c9%3A0xc7cf095e5bc02de9!2sLiceul%20Teoretic%20%22Nicolae%20Iorga%22!5e0!3m2!1sro!2sro!4v1731593924353!5m2!1sro!2sro',
   content2: undefined,
   phone1: undefined,
   heading1: undefined,
