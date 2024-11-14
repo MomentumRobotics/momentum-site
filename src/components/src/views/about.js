@@ -9,59 +9,99 @@ const sponsorImages = [
 ];
 
 
-import img0 from './Assets/IMG_7764.jpg';
-import img1 from './Assets/IMG_7773.jpg';
-import img2 from './Assets/IMG_7780.jpg';
-import img3 from './Assets/IMG_7782.jpg';
-import img4 from './Assets/IMG_7784.jpg';
-import img5 from './Assets/IMG_7785.jpg';
-import img6 from './Assets/IMG_7787.jpg';
-import img7 from './Assets/IMG_7788.jpg';
-import img8 from './Assets/IMG_7789.jpg';
-import img9 from './Assets/IMG_7790.jpg';
-import img10 from './Assets/IMG_7791.jpg';
-import img11 from './Assets/IMG_7792.jpg';
-import img12 from './Assets/IMG_7794.jpg';
-import img13 from './Assets/IMG_7796.jpg';
-import img14 from './Assets/IMG_7797.jpg';
-import img15 from './Assets/IMG_7798.jpg';
-import img16 from './Assets/IMG_7800.jpg';
-import img17 from './Assets/IMG_7801.jpg';
-import img18 from './Assets/IMG_7805.jpg';
-import img19 from './Assets/IMG_7806.jpg';
-import img20 from './Assets/IMG_7808.jpg';
-import img21 from './Assets/IMG_7810.jpg';
-import img22 from './Assets/IMG_7812.jpg';
-import img23 from './Assets/IMG_7815.jpg';
-import img24 from './Assets/IMG_7822.jpg';
-import img25 from './Assets/IMG_7824.jpg';
-import img26 from './Assets/IMG_7826.jpg';
-import img27 from './Assets/IMG_7830.jpg';
-import img28 from './Assets/IMG_7832.jpg';
-import img29 from './Assets/IMG_7833.jpg';
-import img30 from './Assets/IMG_7848.jpg';
-import img31 from './Assets/IMG_7851.jpg';
-import img32 from './Assets/IMG_7854.jpg';
-import img33 from './Assets/IMG_7913.jpg';
-import img34 from './Assets/IMG_7916.jpg';
-import img35 from './Assets/IMG_7917.jpg';
-import img36 from './Assets/IMG_7919.jpg';
-import img37 from './Assets/IMG_7921.jpg';
-import img38 from './Assets/IMG_7923.jpg';
-import img39 from './Assets/IMG_7924.jpg';
-import img40 from './Assets/IMG_7926.jpg';
-import img41 from './Assets/IMG_7928.jpg';
-import img42 from './Assets/IMG_7933.jpg';
-import img43 from './Assets/IMG_9835.jpg';
-import img44 from './Assets/IMG_9837.jpg';
-import img45 from './Assets/IMG_9839.jpg';
-import img46 from './Assets/IMG_9843.jpg';
-import img47 from './Assets/IMG_9846.jpg';
-import img48 from './Assets/IMG_9847.jpg';
-import img49 from './Assets/IMG_9848.jpg';
+import img0 from './Assets/IMG_7773.jpg';
+import img1 from './Assets/IMG_7780.jpg';
+import img2 from './Assets/IMG_7782.jpg';
+import img3 from './Assets/IMG_7784.jpg';
+import img4 from './Assets/IMG_7785.jpg';
+import img5 from './Assets/IMG_7789.jpg';
+import img6 from './Assets/IMG_7794.jpg';
+import img7 from './Assets/IMG_7796.jpg';
+import img8 from './Assets/IMG_7797.jpg';
+import img9 from './Assets/IMG_7800.jpg';
+import img10 from './Assets/IMG_7801.jpg';
+import img11 from './Assets/IMG_7805.jpg';
+import img12 from './Assets/IMG_7806.jpg';
+import img13 from './Assets/IMG_7808.jpg';
+import img14 from './Assets/IMG_7810.jpg';
+import img15 from './Assets/IMG_7812.jpg';
+import img16 from './Assets/IMG_7815.jpg';
+import img17 from './Assets/IMG_7822.jpg';
+import img18 from './Assets/IMG_7824.jpg';
+import img19 from './Assets/IMG_7826.jpg';
+import img20 from './Assets/IMG_7830.jpg';
+import img21 from './Assets/IMG_7832.jpg';
+import img22 from './Assets/IMG_7833.jpg';
+import img23 from './Assets/IMG_7848.jpg';
+import img24 from './Assets/IMG_7851.jpg';
+import img25 from './Assets/IMG_7913.jpg';
+import img26 from './Assets/IMG_7916.jpg';
+import img27 from './Assets/IMG_7917.jpg';
+import img28 from './Assets/IMG_7919.jpg';
+import img29 from './Assets/IMG_7921.jpg';
+import img30 from './Assets/IMG_7923.jpg';
+import img31 from './Assets/IMG_7924.jpg';
+import img32 from './Assets/IMG_7926.jpg';
+import img33 from './Assets/IMG_7928.jpg';
+import img34 from './Assets/IMG_7933.jpg';
+import img35 from './Assets/IMG_9835.jpg';
+import img36 from './Assets/IMG_9837.jpg';
+import img37 from './Assets/IMG_9839.jpg';
+import img38 from './Assets/IMG_9843.jpg';
+import img39 from './Assets/IMG_9846.jpg';
+import img40 from './Assets/IMG_9847.jpg';
+import img41 from './Assets/IMG_9848.jpg';
+import img42 from './Assets/WhatsApp Image 2024-11-14 at 7.20.59 PM.jpeg';
+import img43 from './Assets/WhatsApp Image 2024-11-14 at 7.21.00 PM (1).jpeg';
+import img44 from './Assets/WhatsApp Image 2024-11-14 at 7.21.00 PM (2).jpeg';
+import img45 from './Assets/WhatsApp Image 2024-11-14 at 7.21.00 PM.jpeg';
+import img46 from './Assets/WhatsApp Image 2024-11-14 at 7.21.01 PM (1).jpeg';
+import img47 from './Assets/WhatsApp Image 2024-11-14 at 7.21.01 PM.jpeg';
+import img48 from './Assets/WhatsApp Image 2024-11-14 at 7.21.02 PM (1).jpeg';
+import img49 from './Assets/WhatsApp Image 2024-11-14 at 7.21.02 PM.jpeg';
+import img50 from './Assets/WhatsApp Image 2024-11-14 at 7.21.03 PM (1).jpeg';
+import img51 from './Assets/WhatsApp Image 2024-11-14 at 7.21.03 PM.jpeg';
+import img52 from './Assets/WhatsApp Image 2024-11-14 at 7.21.04 PM.jpeg';
+import img53 from './Assets/WhatsApp Image 2024-11-14 at 7.21.05 PM.jpeg';
+import img54 from './Assets/WhatsApp Image 2024-11-14 at 7.21.06 PM (1).jpeg';
+import img55 from './Assets/WhatsApp Image 2024-11-14 at 7.21.06 PM (2).jpeg';
+import img56 from './Assets/WhatsApp Image 2024-11-14 at 7.21.06 PM.jpeg';
+import img57 from './Assets/WhatsApp Image 2024-11-14 at 7.21.07 PM (1).jpeg';
+import img58 from './Assets/WhatsApp Image 2024-11-14 at 7.21.07 PM.jpeg';
+import img59 from './Assets/WhatsApp Image 2024-11-14 at 7.21.08 PM (1).jpeg';
+import img60 from './Assets/WhatsApp Image 2024-11-14 at 7.21.08 PM (2).jpeg';
+import img61 from './Assets/WhatsApp Image 2024-11-14 at 7.21.08 PM.jpeg';
+import img62 from './Assets/WhatsApp Image 2024-11-14 at 7.21.09 PM.jpeg';
+import img63 from './Assets/WhatsApp Image 2024-11-14 at 7.21.10 PM (1).jpeg';
+import img64 from './Assets/WhatsApp Image 2024-11-14 at 7.21.10 PM.jpeg';
+import img65 from './Assets/WhatsApp Image 2024-11-14 at 7.21.11 PM (1).jpeg';
+import img66 from './Assets/WhatsApp Image 2024-11-14 at 7.21.11 PM (2).jpeg';
+import img67 from './Assets/WhatsApp Image 2024-11-14 at 7.21.11 PM.jpeg';
+import img68 from './Assets/WhatsApp Image 2024-11-14 at 7.21.12 PM (1).jpeg';
+import img69 from './Assets/WhatsApp Image 2024-11-14 at 7.21.12 PM.jpeg';
+import img70 from './Assets/WhatsApp Image 2024-11-14 at 7.21.13 PM (1).jpeg';
+import img71 from './Assets/WhatsApp Image 2024-11-14 at 7.21.13 PM.jpeg';
+import img72 from './Assets/WhatsApp Image 2024-11-14 at 7.21.48 PM (1).jpeg';
+import img73 from './Assets/WhatsApp Image 2024-11-14 at 7.21.48 PM (2).jpeg';
+import img74 from './Assets/WhatsApp Image 2024-11-14 at 7.21.48 PM.jpeg';
+import img75 from './Assets/WhatsApp Image 2024-11-14 at 7.21.49 PM (1).jpeg';
+import img76 from './Assets/WhatsApp Image 2024-11-14 at 7.21.49 PM.jpeg';
+import img77 from './Assets/WhatsApp Image 2024-11-14 at 7.21.50 PM (1).jpeg';
+import img78 from './Assets/WhatsApp Image 2024-11-14 at 7.21.50 PM.jpeg';
+import img79 from './Assets/WhatsApp Image 2024-11-14 at 7.21.51 PM.jpeg';
+import img80 from './Assets/WhatsApp Image 2024-11-14 at 7.21.52 PM.jpeg';
+import img81 from './Assets/WhatsApp Image 2024-11-14 at 7.21.53 PM (1).jpeg';
+import img82 from './Assets/WhatsApp Image 2024-11-14 at 7.21.53 PM (2).jpeg';
+import img83 from './Assets/WhatsApp Image 2024-11-14 at 7.21.53 PM.jpeg';
+import img84 from './Assets/WhatsApp Image 2024-11-14 at 7.21.54 PM (1).jpeg';
+import img85 from './Assets/WhatsApp Image 2024-11-14 at 7.21.54 PM.jpeg';
+import img86 from './Assets/WhatsApp Image 2024-11-14 at 7.21.55 PM (1).jpeg';
+import img87 from './Assets/WhatsApp Image 2024-11-14 at 7.21.55 PM.jpeg';
+import img88 from './Assets/WhatsApp Image 2024-11-14 at 7.21.56 PM.jpeg';
 
 
 export const images = [
+    { src: img0, alt: 'Image 1' },
     { src: img1, alt: 'Image 2' },
     { src: img2, alt: 'Image 3' },
     { src: img3, alt: 'Image 4' },
@@ -110,7 +150,46 @@ export const images = [
     { src: img46, alt: 'Image 47' },
     { src: img47, alt: 'Image 48' },
     { src: img48, alt: 'Image 49' },
-    { src: img49, alt: 'Image 50' }
+    { src: img49, alt: 'Image 50' },
+    { src: img50, alt: 'Image 51' },
+    { src: img51, alt: 'Image 52' },
+    { src: img52, alt: 'Image 53' },
+    { src: img53, alt: 'Image 54' },
+    { src: img54, alt: 'Image 55' },
+    { src: img55, alt: 'Image 56' },
+    { src: img56, alt: 'Image 57' },
+    { src: img57, alt: 'Image 58' },
+    { src: img58, alt: 'Image 59' },
+    { src: img59, alt: 'Image 60' },
+    { src: img60, alt: 'Image 61' },
+    { src: img61, alt: 'Image 62' },
+    { src: img62, alt: 'Image 63' },
+    { src: img63, alt: 'Image 64' },
+    { src: img64, alt: 'Image 65' },
+    { src: img65, alt: 'Image 66' },
+    { src: img66, alt: 'Image 67' },
+    { src: img67, alt: 'Image 68' },
+    { src: img68, alt: 'Image 69' },
+    { src: img69, alt: 'Image 70' },
+    { src: img70, alt: 'Image 71' },
+    { src: img71, alt: 'Image 72' },
+    { src: img72, alt: 'Image 73' },
+    { src: img73, alt: 'Image 74' },
+    { src: img74, alt: 'Image 75' },
+    { src: img75, alt: 'Image 76' },
+    { src: img76, alt: 'Image 77' },
+    { src: img77, alt: 'Image 78' },
+    { src: img78, alt: 'Image 79' },
+    { src: img79, alt: 'Image 80' },
+    { src: img80, alt: 'Image 81' },
+    { src: img81, alt: 'Image 82' },
+    { src: img82, alt: 'Image 83' },
+    { src: img83, alt: 'Image 84' },
+    { src: img84, alt: 'Image 85' },
+    { src: img85, alt: 'Image 86' },
+    { src: img86, alt: 'Image 87' },
+    { src: img87, alt: 'Image 88' },
+    { src: img88, alt: 'Image 89' }
 ];
 
 
@@ -140,6 +219,7 @@ import ScrollToTop from '../../scroll';
 import ftc from '../Assets/FTC logo.png'
 import EUROBUILDING from '../Assets/EURO-BUILDING.jpg'
 import Gallery8 from "../../gallery8";
+
 
 
 
