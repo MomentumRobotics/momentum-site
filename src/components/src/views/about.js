@@ -1,104 +1,140 @@
 import React, { Fragment } from 'react'
-
 import { Helmet } from 'react-helmet'
 import {LinearTextGradient, RadialTextGradient} from "react-text-gradients-and-animations";
 
-const sponsorImages = [
-    {src: EUROBUILDING, name: "Euro Building"},
-    {src: sp2, name: "S.C. Consamar Hidroizolatii S.R.L."}
-];
+import ScrollToTop from '../../scroll';
+import Gallery8 from "../../gallery8";
+import Navbar8 from '../../navbar8'
+import Footer4 from '../../footer4'
+import './about.css'
+
+import Magda from '../Assets/Magda.jpg'
+import Ionut from '../Assets/Ionut.jpg'
+import misu from '../Assets/Misu.jpg'
+import mihai from '../Assets/Mihai.jpg'
+import bia from '../Assets/Bia.jpg'
+import hagiul from '../Assets/Hagiul.jpg'
+import Darian from '../Assets/Darian.jpg'
+import Maria from  '../Assets/Maria.jpg'
+import darius from '../Assets/Darius.jpg'
 
 
-import img0 from './Assets/IMG_7773.jpg';
-import img1 from './Assets/IMG_7780.jpg';
-import img2 from './Assets/IMG_7782.jpg';
-import img3 from './Assets/IMG_7784.jpg';
-import img4 from './Assets/IMG_7785.jpg';
-import img5 from './Assets/IMG_7789.jpg';
-import img6 from './Assets/IMG_7794.jpg';
-import img7 from './Assets/IMG_7796.jpg';
-import img8 from './Assets/IMG_7797.jpg';
-import img9 from './Assets/IMG_7800.jpg';
-import img10 from './Assets/IMG_7801.jpg';
-import img11 from './Assets/IMG_7805.jpg';
-import img12 from './Assets/IMG_7806.jpg';
-import img13 from './Assets/IMG_7808.jpg';
-import img14 from './Assets/IMG_7810.jpg';
-import img15 from './Assets/IMG_7812.jpg';
-import img16 from './Assets/IMG_7815.jpg';
-import img17 from './Assets/IMG_7822.jpg';
-import img18 from './Assets/IMG_7824.jpg';
-import img19 from './Assets/IMG_7826.jpg';
-import img20 from './Assets/IMG_7830.jpg';
-import img21 from './Assets/IMG_7832.jpg';
-import img22 from './Assets/IMG_7833.jpg';
-import img23 from './Assets/IMG_7848.jpg';
-import img24 from './Assets/IMG_7851.jpg';
-import img25 from './Assets/IMG_7913.jpg';
-import img26 from './Assets/IMG_7916.jpg';
-import img27 from './Assets/IMG_7917.jpg';
-import img28 from './Assets/IMG_7919.jpg';
-import img29 from './Assets/IMG_7921.jpg';
-import img30 from './Assets/IMG_7923.jpg';
-import img31 from './Assets/IMG_7924.jpg';
-import img32 from './Assets/IMG_7926.jpg';
-import img33 from './Assets/IMG_7928.jpg';
-import img34 from './Assets/IMG_7933.jpg';
-import img35 from './Assets/IMG_9835.jpg';
-import img36 from './Assets/IMG_9837.jpg';
-import img37 from './Assets/IMG_9839.jpg';
-import img38 from './Assets/IMG_9843.jpg';
-import img39 from './Assets/IMG_9846.jpg';
-import img40 from './Assets/IMG_9847.jpg';
-import img41 from './Assets/IMG_9848.jpg';
-import img42 from './Assets/WhatsApp Image 2024-11-14 at 7.20.59 PM.jpeg';
-import img43 from './Assets/WhatsApp Image 2024-11-14 at 7.21.00 PM (1).jpeg';
-import img44 from './Assets/WhatsApp Image 2024-11-14 at 7.21.00 PM (2).jpeg';
-import img45 from './Assets/WhatsApp Image 2024-11-14 at 7.21.00 PM.jpeg';
-import img46 from './Assets/WhatsApp Image 2024-11-14 at 7.21.01 PM (1).jpeg';
-import img47 from './Assets/WhatsApp Image 2024-11-14 at 7.21.01 PM.jpeg';
-import img48 from './Assets/WhatsApp Image 2024-11-14 at 7.21.02 PM (1).jpeg';
-import img49 from './Assets/WhatsApp Image 2024-11-14 at 7.21.02 PM.jpeg';
-import img50 from './Assets/WhatsApp Image 2024-11-14 at 7.21.03 PM (1).jpeg';
-import img51 from './Assets/WhatsApp Image 2024-11-14 at 7.21.03 PM.jpeg';
-import img52 from './Assets/WhatsApp Image 2024-11-14 at 7.21.04 PM.jpeg';
-import img53 from './Assets/WhatsApp Image 2024-11-14 at 7.21.05 PM.jpeg';
-import img54 from './Assets/WhatsApp Image 2024-11-14 at 7.21.06 PM (1).jpeg';
-import img55 from './Assets/WhatsApp Image 2024-11-14 at 7.21.06 PM (2).jpeg';
-import img56 from './Assets/WhatsApp Image 2024-11-14 at 7.21.06 PM.jpeg';
-import img57 from './Assets/WhatsApp Image 2024-11-14 at 7.21.07 PM (1).jpeg';
-import img58 from './Assets/WhatsApp Image 2024-11-14 at 7.21.07 PM.jpeg';
-import img59 from './Assets/WhatsApp Image 2024-11-14 at 7.21.08 PM (1).jpeg';
-import img60 from './Assets/WhatsApp Image 2024-11-14 at 7.21.08 PM (2).jpeg';
-import img61 from './Assets/WhatsApp Image 2024-11-14 at 7.21.08 PM.jpeg';
-import img62 from './Assets/WhatsApp Image 2024-11-14 at 7.21.09 PM.jpeg';
-import img63 from './Assets/WhatsApp Image 2024-11-14 at 7.21.10 PM (1).jpeg';
-import img64 from './Assets/WhatsApp Image 2024-11-14 at 7.21.10 PM.jpeg';
-import img65 from './Assets/WhatsApp Image 2024-11-14 at 7.21.11 PM (1).jpeg';
-import img66 from './Assets/WhatsApp Image 2024-11-14 at 7.21.11 PM (2).jpeg';
-import img67 from './Assets/WhatsApp Image 2024-11-14 at 7.21.11 PM.jpeg';
-import img68 from './Assets/WhatsApp Image 2024-11-14 at 7.21.12 PM (1).jpeg';
-import img69 from './Assets/WhatsApp Image 2024-11-14 at 7.21.12 PM.jpeg';
-import img70 from './Assets/WhatsApp Image 2024-11-14 at 7.21.13 PM (1).jpeg';
-import img71 from './Assets/WhatsApp Image 2024-11-14 at 7.21.13 PM.jpeg';
-import img72 from './Assets/WhatsApp Image 2024-11-14 at 7.21.48 PM (1).jpeg';
-import img73 from './Assets/WhatsApp Image 2024-11-14 at 7.21.48 PM (2).jpeg';
-import img74 from './Assets/WhatsApp Image 2024-11-14 at 7.21.48 PM.jpeg';
-import img75 from './Assets/WhatsApp Image 2024-11-14 at 7.21.49 PM (1).jpeg';
-import img76 from './Assets/WhatsApp Image 2024-11-14 at 7.21.49 PM.jpeg';
-import img77 from './Assets/WhatsApp Image 2024-11-14 at 7.21.50 PM (1).jpeg';
-import img78 from './Assets/WhatsApp Image 2024-11-14 at 7.21.50 PM.jpeg';
-import img79 from './Assets/WhatsApp Image 2024-11-14 at 7.21.51 PM.jpeg';
-import img80 from './Assets/WhatsApp Image 2024-11-14 at 7.21.52 PM.jpeg';
-import img81 from './Assets/WhatsApp Image 2024-11-14 at 7.21.53 PM (1).jpeg';
-import img82 from './Assets/WhatsApp Image 2024-11-14 at 7.21.53 PM (2).jpeg';
-import img83 from './Assets/WhatsApp Image 2024-11-14 at 7.21.53 PM.jpeg';
-import img84 from './Assets/WhatsApp Image 2024-11-14 at 7.21.54 PM (1).jpeg';
-import img85 from './Assets/WhatsApp Image 2024-11-14 at 7.21.54 PM.jpeg';
-import img86 from './Assets/WhatsApp Image 2024-11-14 at 7.21.55 PM (1).jpeg';
-import img87 from './Assets/WhatsApp Image 2024-11-14 at 7.21.55 PM.jpeg';
-import img88 from './Assets/WhatsApp Image 2024-11-14 at 7.21.56 PM.jpeg';
 
+
+import img0 from './Assets/img (1).jpg';
+import img1 from './Assets/img (10).jpg';
+import img2 from './Assets/img (100).jpg';
+import img3 from './Assets/img (101).jpg';
+import img4 from './Assets/img (102).jpg';
+import img5 from './Assets/img (103).jpg';
+import img6 from './Assets/img (104).jpg';
+import img7 from './Assets/img (105).jpg';
+import img8 from './Assets/img (106).jpg';
+import img9 from './Assets/img (107).jpg';
+import img10 from './Assets/img (108).jpg';
+import img11 from './Assets/img (109).jpg';
+import img12 from './Assets/img (11).jpg';
+import img13 from './Assets/img (110).jpg';
+import img14 from './Assets/img (111).jpg';
+import img15 from './Assets/img (112).jpg';
+import img16 from './Assets/img (113).jpg';
+import img17 from './Assets/img (114).jpg';
+import img18 from './Assets/img (12).jpg';
+import img19 from './Assets/img (13).jpg';
+import img20 from './Assets/img (14).jpg';
+import img21 from './Assets/img (15).jpg';
+import img22 from './Assets/img (16).jpg';
+import img23 from './Assets/img (17).jpg';
+import img24 from './Assets/img (18).jpg';
+import img25 from './Assets/img (19).jpg';
+import img26 from './Assets/img (2).jpg';
+import img27 from './Assets/img (20).jpg';
+import img28 from './Assets/img (21).jpg';
+import img29 from './Assets/img (22).jpg';
+import img30 from './Assets/img (23).jpg';
+import img31 from './Assets/img (24).jpg';
+import img32 from './Assets/img (25).jpg';
+import img33 from './Assets/img (26).jpg';
+import img34 from './Assets/img (27).jpg';
+import img35 from './Assets/img (28).jpg';
+import img36 from './Assets/img (29).jpg';
+import img37 from './Assets/img (3).jpg';
+import img38 from './Assets/img (30).jpg';
+import img39 from './Assets/img (31).jpg';
+import img40 from './Assets/img (32).jpg';
+import img41 from './Assets/img (33).jpg';
+import img42 from './Assets/img (34).jpg';
+import img43 from './Assets/img (35).jpg';
+import img44 from './Assets/img (36).jpg';
+import img45 from './Assets/img (37).jpg';
+import img46 from './Assets/img (38).jpg';
+import img47 from './Assets/img (39).jpg';
+import img48 from './Assets/img (4).jpg';
+import img49 from './Assets/img (40).jpg';
+import img50 from './Assets/img (41).jpg';
+import img51 from './Assets/img (42).jpg';
+import img52 from './Assets/img (43).jpg';
+import img53 from './Assets/img (44).jpg';
+import img54 from './Assets/img (45).jpg';
+import img55 from './Assets/img (46).jpg';
+import img56 from './Assets/img (47).jpg';
+import img57 from './Assets/img (48).jpg';
+import img58 from './Assets/img (49).jpg';
+import img59 from './Assets/img (5).jpg';
+import img60 from './Assets/img (50).jpg';
+import img61 from './Assets/img (51).jpg';
+import img62 from './Assets/img (52).jpg';
+import img63 from './Assets/img (53).jpg';
+import img64 from './Assets/img (54).jpg';
+import img65 from './Assets/img (55).jpg';
+import img66 from './Assets/img (56).jpg';
+import img67 from './Assets/img (57).jpg';
+import img68 from './Assets/img (58).jpg';
+import img69 from './Assets/img (59).jpg';
+import img70 from './Assets/img (6).jpg';
+import img71 from './Assets/img (60).jpg';
+import img72 from './Assets/img (61).jpg';
+import img73 from './Assets/img (62).jpg';
+import img74 from './Assets/img (63).jpg';
+import img75 from './Assets/img (64).jpg';
+import img76 from './Assets/img (65).jpg';
+import img77 from './Assets/img (66).jpg';
+import img78 from './Assets/img (67).jpg';
+import img79 from './Assets/img (68).jpg';
+import img80 from './Assets/img (69).jpg';
+import img81 from './Assets/img (7).jpg';
+import img82 from './Assets/img (70).jpg';
+import img83 from './Assets/img (71).jpg';
+import img84 from './Assets/img (72).jpg';
+import img85 from './Assets/img (73).jpg';
+import img86 from './Assets/img (74).jpg';
+import img87 from './Assets/img (75).jpg';
+import img88 from './Assets/img (76).jpg';
+import img89 from './Assets/img (77).jpg';
+import img90 from './Assets/img (78).jpg';
+import img91 from './Assets/img (79).jpg';
+import img92 from './Assets/img (8).jpg';
+import img93 from './Assets/img (80).jpg';
+import img94 from './Assets/img (81).jpg';
+import img95 from './Assets/img (82).jpg';
+import img96 from './Assets/img (83).jpg';
+import img97 from './Assets/img (84).jpg';
+import img98 from './Assets/img (85).jpg';
+import img99 from './Assets/img (86).jpg';
+import img100 from './Assets/img (87).jpg';
+import img101 from './Assets/img (88).jpg';
+import img102 from './Assets/img (89).jpg';
+import img103 from './Assets/img (9).jpg';
+import img104 from './Assets/img (90).jpg';
+import img105 from './Assets/img (91).jpg';
+import img106 from './Assets/img (92).jpg';
+import img107 from './Assets/img (93).jpg';
+import img108 from './Assets/img (94).jpg';
+import img109 from './Assets/img (95).jpg';
+import img110 from './Assets/img (96).jpg';
+import img111 from './Assets/img (97).jpg';
+import img112 from './Assets/img (98).jpg';
+import img113 from './Assets/img (99).jpg';
 
 export const images = [
     { src: img0, alt: 'Image 1' },
@@ -189,77 +225,90 @@ export const images = [
     { src: img85, alt: 'Image 86' },
     { src: img86, alt: 'Image 87' },
     { src: img87, alt: 'Image 88' },
-    { src: img88, alt: 'Image 89' }
+    { src: img88, alt: 'Image 89' },
+    { src: img89, alt: 'Image 90' },
+    { src: img90, alt: 'Image 91' },
+    { src: img91, alt: 'Image 92' },
+    { src: img92, alt: 'Image 93' },
+    { src: img93, alt: 'Image 94' },
+    { src: img94, alt: 'Image 95' },
+    { src: img95, alt: 'Image 96' },
+    { src: img96, alt: 'Image 97' },
+    { src: img97, alt: 'Image 98' },
+    { src: img98, alt: 'Image 99' },
+    { src: img99, alt: 'Image 100' },
+    { src: img100, alt: 'Image 101' },
+    { src: img101, alt: 'Image 102' },
+    { src: img102, alt: 'Image 103' },
+    { src: img103, alt: 'Image 104' },
+    { src: img104, alt: 'Image 105' },
+    { src: img105, alt: 'Image 106' },
+    { src: img106, alt: 'Image 107' },
+    { src: img107, alt: 'Image 108' },
+    { src: img108, alt: 'Image 109' },
+    { src: img109, alt: 'Image 110' },
+    { src: img110, alt: 'Image 111' },
+    { src: img111, alt: 'Image 112' },
+    { src: img112, alt: 'Image 113' },
+    { src: img113, alt: 'Image 114' }
 ];
-
-
-import sp2 from '../Assets/sp2.JPG'
-import Navbar8 from '../../navbar8'
-import SponsorCarousel from "../../SponsorCarousel";
-import Footer4 from '../../footer4'
-import './about.css'
-
-import Doroftei from '../Assets/IMG_7905.jpg'
-import matei from '../Assets/IMG_9865.jpg'
-import Lavinia from '../Assets/IMG_9854.jpg'
-import Magda from '../Assets/Magda.jpg'
-import sisu from '../Assets/sisu.jpg'
-import Ionut from '../Assets/Ionut.jpg'
-import Rares from '../Assets/Rares.jpg'
-import misu from '../Assets/Misu.jpg'
-import mihai from '../Assets/Mihai.jpg'
-import bia from '../Assets/Bia.jpg'
-import hagiul from '../Assets/Hagiul.jpg'
-import Darian from '../Assets/Darian.jpg'
-import Maria from  '../Assets/Maria.jpg'
-import darius from '../Assets/Darius.jpg'
-
-import ScrollToTop from '../../scroll';
-
-import ftc from '../Assets/FTC logo.png'
-import EUROBUILDING from '../Assets/EURO-BUILDING.jpg'
-import Gallery8 from "../../gallery8";
-
-
-
 
 const About = (props) => {
     return (
         <div className="about-container">
+
             <ScrollToTop/>
+
             <Helmet>
                 <title>About Us | Momentum Robotics</title>
                 <meta property="og:title" content="About Us | Momentum Robotics"/>
             </Helmet>
+
             <Navbar8
                 link1={
+
                     <Fragment>
                         <span className="about-text10">Home</span>
                     </Fragment>
+
                 }
                 link3={
+
                     <Fragment>
                         <span className="about-text11">About Us</span>
                     </Fragment>
+
                 }
                 link4={
+
                     <Fragment>
                         <span className="about-text12">Contact us</span>
                     </Fragment>
+
                 }
+
                 link1Url="/momentum-site/"
+
                 link3Url="#/about"
+
                 link31={
+
                     <Fragment>
                         <span className="about-text13">Contact Us</span>
                     </Fragment>
+
                 }
+
                 link3Url1="#/contact"
+
             ></Navbar8>
+
             <div className="Our_Team">
-              <span className="Our_Team"><LinearTextGradient angle={45}
-                                                             colors={["#ffd820", "#69af22"]}>Sponsors</LinearTextGradient></span>
+
+              <span className="Our_Team"><LinearTextGradient angle={45} colors={["#ffd820", "#69af22"]}>Sponsors</LinearTextGradient></span>
+
             </div>
+
             <div className="sponsors"><span className="paragraph">Suntem extrem de recunoscători</span> sponsorilor
                 noștri, a căror susținere generoasă ne
                 alimentează pasiunea și dedicarea. Parteneriatul lor ne ajută să ne depășim limitele, să inovăm și să
@@ -268,138 +317,144 @@ const About = (props) => {
                 sunt
                 alături de noi, ajutându-ne să ne atingem obiectivele. Vă mulțumim că aveți încredere în noi!
             </div>
-            <SponsorCarousel images={sponsorImages}/>
+
             <div className="thq-divider-horizontal"></div>
             <div className="prevent-select"><Gallery8/></div>
             <div className="thq-divider-horizontal"></div>
+
             <div className="Our_Team">
-              <span className="Our_Team"><LinearTextGradient angle={45}
-                                                             colors={["#000C40 5%", "#607D8B"]}>Our Team</LinearTextGradient></span>
+
+              <span className="Our_Team"><LinearTextGradient angle={45} colors={["#000C40 5%", "#607D8B"]}>Our Team</LinearTextGradient></span>
+
             </div>
+
             <div className="Leaders">
-              <span className="Leaders"><LinearTextGradient angle={45}
-                                                            colors={["#780206", "#601161"]}>Main Leader</LinearTextGradient></span>
+
+              <span className="Leaders"><LinearTextGradient angle={45} colors={["#780206", "#601161"]}>Main Leader</LinearTextGradient></span>
+
             </div>
+
             <div className="picture-and-name1">
+
                 <div className="image-container">
+
                     <img className="image1" src={bia} alt="Bianca"/>
                     <span className="hide1">Jercan Bianca</span>
                     <span className="hide2">Lider Principal</span> {/* Department Text */}
+
                 </div>
 
             </div>
+
             <div className="thq-divider-horizontal"><span className="thq-divider-horizontal"></span></div>
+
             <div className="Leaders">
-              <span className="Leaders"><LinearTextGradient angle={45}
-                                                            colors={["#185a9d", "#43cea2"]}>Departament</LinearTextGradient></span>
+
+              <span className="Leaders"><LinearTextGradient angle={45} colors={["#185a9d", "#43cea2"]}>Departament</LinearTextGradient></span>
+
             </div>
+
             <div className="Leaders1">
-              <span className="Leaders1"><LinearTextGradient angle={45}
-                                                             colors={["#185a9d", "#43cea2"]}>Leaders</LinearTextGradient></span>
+              <span className="Leaders1"><LinearTextGradient angle={45} colors={["#185a9d", "#43cea2"]}>Leaders</LinearTextGradient></span>
+
             </div>
 
             <div className="picture-and-name1">
 
                 <div className="image-container">
+
                     <img className="image1" src={misu} alt="Misu"/>
                     <span className="hide1">Vîlcu Mihai Rareș</span> {/* Name Text */}
                     <span className="hide2">Lider Programare</span> {/* Department Text */}
+
                 </div>
+
                 <div className="image-container">
+
                     <img className="image1" src={mihai} alt="Mihai"/>
                     <span className="hide1">Ursache Mihai Andrei</span> {/* Name Text */}
                     <span className="hide2">Lider Web Design</span> {/* Department Text */}
+
                 </div>
+
                 <div className="image-container">
+
                     <img className="image1" src={hagiul} alt="Hagiul"/>
                     <span className="hide1">Hagiu Andrei Răzvan</span> {/* Name Text */}
                     <span className="hide2">Lider Constructie</span> {/* Department Text */}
+
                 </div>
+
                 <div className="image-container">
+
                     <img className="image1" src={Darian} alt="Darian"/>
                     <span className="hide1">Munteanu Darian</span> {/* Name Text */}
                     <span className="hide2">Lider Jurnal</span> {/* Department Text */}
+
                 </div>
+
                 <div className="image-container">
-                    <img className="image1" src={Rares} alt="Rares"/>
-                    <span className="hide1">Dragomir Cotigă Rareș</span> {/* Name Text */}
+
+                    <img className="image1" src={darius} alt="Darius"/>
+                    <span className="hide1">Coteț Darius-Iulian</span> {/* Name Text */}
                     <span className="hide2">Lider Design</span> {/* Department Text */}
+
                 </div>
+
                 <div className="image-container">
+
                     <img className="image1" src={Ionut} alt="Ionut"/>
                     <span className="hide1">Gavrila Ionuț Damian</span> {/* Name Text */}
                     <span className="hide2">Lider 3D Design</span> {/* Department Text */}
+
                 </div>
+
                 <div className="image-container">
+
                     <img className="image1" src={Magda} alt="Magda"/>
                     <span className="hide1">Andrei Maria Magdalena </span> {/* Name Text */}
                     <span className="hide2">Lider Jurnal Non-Tehnic</span>
+
                 </div>
+
                 <div className="image-container">
                     <img className="image1" src={Maria} alt="Maria"/>
                     <span className="hide1">Gherghina Maria Carmen</span> {/* Name Text */}
                     <span className="hide2">Lider Marketing</span>
+
                 </div>
 
             </div>
+
             <div className="thq-divider-horizontal"><span className="thq-divider-horizontal"></span></div>
 
-            <div className="Leaders">
-              <span className="Leaders"><LinearTextGradient angle={45}
-                                                            colors={["#20e448", "#216da3", "#2f21a3"]}>Members</LinearTextGradient></span>
-            </div>
-            <div className="picture-and-name1">
-
-                <div className="image-container">
-                    <img className="image1" src={darius} alt="Darius"/>
-                    <span className="hide1">Coteț Darius-Iulian</span> {/* Name Text */}
-                    <span className="hide2">Adjunct 3D Design</span>
-                </div>
-                <div className="image-container">
-                    <img className="image1" src={sisu} alt="Sisu"/>
-                    <span className="hide1">Sișu Bogdan Gabriel</span> {/* Name Text */}
-                    <span className="hide2">Membru Construcție</span>
-                </div>
-
-                <div className="image-container">
-                    <img className="image1" src={matei} alt="Matei"/>
-                    <span className="hide1">Grama Matei Ionuț</span> {/* Name Text */}
-                    <span className="hide2">Membru Marketing</span>
-                </div>
-                <div className="image-container">
-                    <img className="image1" src={ftc} alt="Darius D"/>
-                    <span className="hide1">Drius D</span> {/* Name Text */}
-                </div>
-
-                <div className="image-container">
-                    <img className="image1" src={Doroftei} alt="Doroftei"/>
-                    <span className="hide1">Doroftei David-Ioan</span> {/* Name Text */}
-                    <span className="hide2">Adjunct Programare</span>
-                </div>
-            </div>
-
-
             <Footer4
+
                 link1={
+
                     <Fragment>
                         <span className="about-text75">Home</span>
                     </Fragment>
+
                 }
                 link2={
+
                     <Fragment>
                         <span className="about-text76">About Us</span>
                     </Fragment>
+
                 }
                 link4={
+
                     <Fragment>
                         <span className="about-text77">Contact Us</span>
                     </Fragment>
+
                 }
             ></Footer4>
+
         </div>
-
     )
-
 }
 
 export default About

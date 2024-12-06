@@ -2,11 +2,9 @@
 import fs from 'fs';
 import path from 'path';
 
-
-
 // Paths for source and destination
-const sourceFolder = 'C:\\Users\\Mihai\\Desktop\\m-site\\src\\Assets';
-const destinationFolder = 'C:\\Users\\Mihai\\Desktop\\aa';
+const sourceFolder = 'path where are the photos';
+const destinationFolder = 'where to send them';
 const outputFile = path.join(destinationFolder, 'imageList.js'); // Save the file in the destination folder
 
 // Ensure destination folder exists

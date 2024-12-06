@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://momentumrobotics.github.io/momentum-site/#/",
   "dependencies": {
-    "@craco/craco": "^5.9.0",
+    "@craco/craco":"^5.9.0",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^6.1.6",

@@ -13,21 +13,22 @@ import About from './components/src/views/about';
 import Contact from './components/src/views/contact';
 import NotFound from './components/src/views/not-found';
 
-
-
-
-
 const App = () => {
 
     return (
+
         <Router>
+
             <Switch>
-                <Route component={Home} exact path="/" />  {/* Adjusted paths for HashRouter */}
+
+                <Route component={Home} exact path="/" />
                 <Route component={About} exact path="/about" />
                 <Route component={Contact} exact path="/contact" />
                 <Route component={NotFound} />
                 <Redirect to="/" />
+
             </Switch>
+
         </Router>
     );
 };
