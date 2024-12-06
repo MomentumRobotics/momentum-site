@@ -542,6 +542,30 @@ body{
   text-align: start;
   width: 50%;
 }
+.sponsors1 {
+   font: 700 20px "Space Mono", monospace !important;
+   text-align: start  !important;
+   width: 70%  !important;
+   margin-bottom: 20px  !important;
+   padding: 0 !important;
+   position: relative !important;
+   left: 0 !important;
+ }
+
+.txt{
+  font-weight: 1000 !important;
+  font-size: 22px !important;
+}
+
+.Our_Team1 {
+  align-content: center;
+  text-align: center; /* Corectează alinierea orizontală */
+  vertical-align: middle; /* Asigură alinierea verticală */
+  font: 1000 58px "Space Mono", monospace;
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+
 .paragraph{
   margin-left: 50px;
 }

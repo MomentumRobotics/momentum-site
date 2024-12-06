@@ -16,7 +16,7 @@ const Features24 = (props) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveTab((prevTab) => (prevTab + 1) % totalTabs);
-    }, 5000); // Change the interval as needed
+    }, 10000); // Change the interval as needed
     return () => clearInterval(interval); // Cleanup on unmount
   }, []);
   return (

@@ -6,8 +6,6 @@ import Navbar8 from '../../navbar8'
 import Hero16 from '../../hero16'
 import Features24 from '../../features24'
 import CTA26 from '../../cta26'
-import Features25 from '../../features25'
-import Steps2 from '../../steps2'
 import Footer4 from '../../footer4'
 import './home.css'
 import {LinearTextGradient} from "react-text-gradients-and-animations";
@@ -110,100 +108,6 @@ const Home = (props) => {
           ></CTA26>
 
 
-
-
-
-
-          {/*<Features25
-      feature1Title={
-                <Fragment>
-                  <span className="home-text27">Advanced Security</span>
-                </Fragment>
-              }
-              feature2Title={
-                <Fragment>
-                  <span className="home-text28">User-Friendly Interface</span>
-                </Fragment>
-              }
-              feature3Title={
-                <Fragment>
-                  <span className="home-text29">24/7 Customer Support</span>
-                </Fragment>
-              }
-              feature1Description={
-                <Fragment>
-            <span className="home-text30">
-              Our platform uses state-of-the-art security measures to protect
-              your data.
-            </span>
-                </Fragment>
-              }
-              feature2Description={
-                <Fragment>
-            <span className="home-text31">
-              Intuitive design makes it easy for users to navigate and utilize
-              all features.
-            </span>
-                </Fragment>
-              }
-              feature3Description={
-                <Fragment>
-            <span className="home-text32">
-              Get assistance anytime with our dedicated customer support team.
-            </span>
-                </Fragment>
-              }
-          ></Features25>*/}
-          {/* <Steps2
-              step1Title={
-                <Fragment>
-                  <span className="home-text33">Discover</span>
-                </Fragment>
-              }
-              step2Title={
-                <Fragment>
-                  <span className="home-text34">Choose</span>
-                </Fragment>
-              }
-              step3Title={
-                <Fragment>
-                  <span className="home-text35">Order</span>
-                </Fragment>
-              }
-              step4Title={
-                <Fragment>
-                  <span className="home-text36">Enjoy</span>
-                </Fragment>
-              }
-              step1Description={
-                <Fragment>
-            <span className="home-text37">
-              Explore our wide range of products and services.
-            </span>
-                </Fragment>
-              }
-              step2Description={
-                <Fragment>
-            <span className="home-text38">
-              Select the items that best suit your needs.
-            </span>
-                </Fragment>
-              }
-              step3Description={
-                <Fragment>
-            <span className="home-text39">
-              Place your order with ease and convenience.
-            </span>
-                </Fragment>
-              }
-              step4Description={
-                <Fragment>
-            <span className="home-text40">
-              Sit back and enjoy your products delivered to your doorstep.
-            </span>
-                </Fragment>
-              }
-          ></Steps2> */}
 
 
 

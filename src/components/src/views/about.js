@@ -1,26 +1,6 @@
 import React, { Fragment } from 'react'
 import { Helmet } from 'react-helmet'
 import {LinearTextGradient, RadialTextGradient} from "react-text-gradients-and-animations";
-
-import ScrollToTop from '../../scroll';
-import Gallery8 from "../../gallery8";
-import Navbar8 from '../../navbar8'
-import Footer4 from '../../footer4'
-import './about.css'
-
-import Magda from '../Assets/Magda.jpg'
-import Ionut from '../Assets/Ionut.jpg'
-import misu from '../Assets/Misu.jpg'
-import mihai from '../Assets/Mihai.jpg'
-import bia from '../Assets/Bia.jpg'
-import hagiul from '../Assets/Hagiul.jpg'
-import Darian from '../Assets/Darian.jpg'
-import Maria from  '../Assets/Maria.jpg'
-import darius from '../Assets/Darius.jpg'
-
-
-
-
 import img0 from './Assets/img (1).jpg';
 import img1 from './Assets/img (10).jpg';
 import img2 from './Assets/img (100).jpg';
@@ -135,7 +115,20 @@ import img110 from './Assets/img (96).jpg';
 import img111 from './Assets/img (97).jpg';
 import img112 from './Assets/img (98).jpg';
 import img113 from './Assets/img (99).jpg';
-
+import Navbar8 from '../../navbar8'
+import Footer4 from '../../footer4'
+import './about.css'
+import Magda from '../Assets/Magda.jpg'
+import Ionut from '../Assets/Ionut.jpg'
+import misu from '../Assets/Misu.jpg'
+import mihai from '../Assets/Mihai.jpg'
+import bia from '../Assets/Bia.jpg'
+import hagiul from '../Assets/Hagiul.jpg'
+import Darian from '../Assets/Darian.jpg'
+import Maria from  '../Assets/Maria.jpg'
+import darius from '../Assets/Darius.jpg'
+import ScrollToTop from '../../scroll';
+import Gallery8 from "../../gallery8";
 export const images = [
     { src: img0, alt: 'Image 1' },
     { src: img1, alt: 'Image 2' },
@@ -252,209 +245,156 @@ export const images = [
     { src: img112, alt: 'Image 113' },
     { src: img113, alt: 'Image 114' }
 ];
-
 const About = (props) => {
     return (
         <div className="about-container">
-
             <ScrollToTop/>
-
             <Helmet>
                 <title>About Us | Momentum Robotics</title>
                 <meta property="og:title" content="About Us | Momentum Robotics"/>
             </Helmet>
-
             <Navbar8
-                link1={
-
-                    <Fragment>
-                        <span className="about-text10">Home</span>
-                    </Fragment>
-
-                }
-                link3={
-
-                    <Fragment>
-                        <span className="about-text11">About Us</span>
-                    </Fragment>
-
-                }
-                link4={
-
-                    <Fragment>
-                        <span className="about-text12">Contact us</span>
-                    </Fragment>
-
-                }
-
+                link1={<Fragment><span className="about-text10">Home</span></Fragment>}
+                link3={<Fragment><span className="about-text11">About Us</span></Fragment>}
+                link4={<Fragment><span className="about-text12">Contact us</span></Fragment>}
                 link1Url="/momentum-site/"
-
                 link3Url="#/about"
-
-                link31={
-
-                    <Fragment>
-                        <span className="about-text13">Contact Us</span>
-                    </Fragment>
-
-                }
-
+                link31={<Fragment><span className="about-text13">Contact Us</span></Fragment>}
                 link3Url1="#/contact"
-
             ></Navbar8>
-
-            <div className="Our_Team">
-
-              <span className="Our_Team"><LinearTextGradient angle={45} colors={["#ffd820", "#69af22"]}>Sponsors</LinearTextGradient></span>
-
+            <div className="Our_Team1">
+                <span className="Our_Team"><LinearTextGradient angle={45}
+                                                               colors={["#0098ff", "#ff1717"]}>Despre Noi</LinearTextGradient></span>
             </div>
-
+            <div className="sponsors1"><span className="paragraph"><RadialTextGradient shape={"circle"} position={"top"}
+                                                                                       colors={["#396fb1", "#000000"]}><span
+                className="sizetxt">Echipa Momentum</span></RadialTextGradient> reprezintă <LinearTextGradient
+                colors={['#e1ac2a', '#b4dd21']}> Colegiul Național „Nicolae Iorga” din Brăila</LinearTextGradient></span>,
+                o instituție recunoscută pentru excelența academică și sprijinul acordat inițiativelor inovatoare.
+                Fondată cu sprijinul echipei <RadialTextGradient
+                    colors={["#ff0000", "#000000"]}><span className="sizetxt"> Velocity</span></RadialTextGradient> de
+                la <LinearTextGradient colors={['#3cc2c5', '#c2d38d']}>Colegiul Național „Gheorghe Munteanu
+                    Murgoci”</LinearTextGradient> – echipă calificată la etapa națională a
+                competiției <span className="sizetxt"> <RadialTextGradient shape={"circle"} position={"left"}
+                                                                           colors={["#000000 0.1%", "#fb9902", "#fb9902"]}>First Tech Challenge (FTC)</RadialTextGradient></span>
+                – Momentum continuă să ducă mai departe această tradiție a performanței.
+                <div className="txt"><span className="paragraph">Participarea la FTC</span> le oferă membrilor
+                    echipei ocazia de a-și dezvolta abilități tehnice, creativitate și spirit de echipă. Profesorii
+                    colegiului au un rol esențial, oferind îndrumare, sprijin și expertiză pentru a
+                    transforma pasiunea elevilor pentru tehnologie în proiecte de succes.
+                    Momentum este mai mult decât o echipă de robotică – este un spațiu în care ideile prind viață, unde
+                    perseverența și colaborarea
+                    sunt cheia progresului, iar viitorul roboticii este construit cu fiecare pas înainte.
+                </div>
+            </div>
+            <div className="thq-divider-horizontal"></div>
+            <div className="Our_Team">
+                    <span className="Our_Team"><LinearTextGradient angle={45}
+                                                                   colors={["#ffd820", "#69af22"]}>Sponsors</LinearTextGradient></span>
+            </div>
             <div className="sponsors"><span className="paragraph">Suntem extrem de recunoscători</span> sponsorilor
-                noștri, a căror susținere generoasă ne
-                alimentează pasiunea și dedicarea. Parteneriatul lor ne ajută să ne depășim limitele, să inovăm și să
-                tindem
-                spre excelență în tot ceea ce facem. Mai jos, veți găsi companiile și organizațiile extraordinare care
-                sunt
-                alături de noi, ajutându-ne să ne atingem obiectivele. Vă mulțumim că aveți încredere în noi!
+                noștri, a căror susținere generoasă ne alimentează pasiunea și dedicarea. Parteneriatul lor ne ajută
+                să ne depășim limitele, să inovăm și să tindem spre excelență în tot ceea ce facem. Mai jos, veți
+                găsi companiile și organizațiile extraordinare care sunt alături de noi, ajutându-ne să ne atingem
+                obiectivele. Vă mulțumim că aveți încredere în noi!
             </div>
-
             <div className="thq-divider-horizontal"></div>
-            <div className="prevent-select"><Gallery8/></div>
+            <div className="prevent-select"><Gallery8 images={images}/></div>
             <div className="thq-divider-horizontal"></div>
-
             <div className="Our_Team">
-
-              <span className="Our_Team"><LinearTextGradient angle={45} colors={["#000C40 5%", "#607D8B"]}>Our Team</LinearTextGradient></span>
-
+                <span className="Our_Team"><LinearTextGradient angle={45}
+                                                               colors={["#000C40 5%", "#607D8B"]}>Our Team</LinearTextGradient></span>
             </div>
-
             <div className="Leaders">
-
-              <span className="Leaders"><LinearTextGradient angle={45} colors={["#780206", "#601161"]}>Main Leader</LinearTextGradient></span>
-
+                    <span className="Leaders"><LinearTextGradient angle={45}
+                                                                  colors={["#780206", "#601161"]}>Main Leader</LinearTextGradient></span>
             </div>
-
             <div className="picture-and-name1">
-
                 <div className="image-container">
-
                     <img className="image1" src={bia} alt="Bianca"/>
                     <span className="hide1">Jercan Bianca</span>
                     <span className="hide2">Lider Principal</span> {/* Department Text */}
-
                 </div>
 
             </div>
-
             <div className="thq-divider-horizontal"><span className="thq-divider-horizontal"></span></div>
-
             <div className="Leaders">
-
-              <span className="Leaders"><LinearTextGradient angle={45} colors={["#185a9d", "#43cea2"]}>Departament</LinearTextGradient></span>
-
+              <span className="Leaders"><LinearTextGradient angle={45}
+                                                            colors={["#185a9d", "#43cea2"]}>Departament</LinearTextGradient></span>
             </div>
-
             <div className="Leaders1">
-              <span className="Leaders1"><LinearTextGradient angle={45} colors={["#185a9d", "#43cea2"]}>Leaders</LinearTextGradient></span>
-
+              <span className="Leaders1"><LinearTextGradient angle={45}
+                                                             colors={["#185a9d", "#43cea2"]}>Leaders</LinearTextGradient></span>
             </div>
 
             <div className="picture-and-name1">
 
                 <div className="image-container">
-
                     <img className="image1" src={misu} alt="Misu"/>
                     <span className="hide1">Vîlcu Mihai Rareș</span> {/* Name Text */}
                     <span className="hide2">Lider Programare</span> {/* Department Text */}
-
                 </div>
-
                 <div className="image-container">
-
                     <img className="image1" src={mihai} alt="Mihai"/>
                     <span className="hide1">Ursache Mihai Andrei</span> {/* Name Text */}
                     <span className="hide2">Lider Web Design</span> {/* Department Text */}
-
                 </div>
-
                 <div className="image-container">
-
                     <img className="image1" src={hagiul} alt="Hagiul"/>
                     <span className="hide1">Hagiu Andrei Răzvan</span> {/* Name Text */}
                     <span className="hide2">Lider Constructie</span> {/* Department Text */}
-
                 </div>
-
                 <div className="image-container">
-
                     <img className="image1" src={Darian} alt="Darian"/>
                     <span className="hide1">Munteanu Darian</span> {/* Name Text */}
                     <span className="hide2">Lider Jurnal</span> {/* Department Text */}
-
                 </div>
-
                 <div className="image-container">
-
                     <img className="image1" src={darius} alt="Darius"/>
                     <span className="hide1">Coteț Darius-Iulian</span> {/* Name Text */}
                     <span className="hide2">Lider Design</span> {/* Department Text */}
-
                 </div>
-
                 <div className="image-container">
-
                     <img className="image1" src={Ionut} alt="Ionut"/>
                     <span className="hide1">Gavrila Ionuț Damian</span> {/* Name Text */}
                     <span className="hide2">Lider 3D Design</span> {/* Department Text */}
-
                 </div>
-
                 <div className="image-container">
-
                     <img className="image1" src={Magda} alt="Magda"/>
                     <span className="hide1">Andrei Maria Magdalena </span> {/* Name Text */}
                     <span className="hide2">Lider Jurnal Non-Tehnic</span>
-
                 </div>
-
                 <div className="image-container">
                     <img className="image1" src={Maria} alt="Maria"/>
                     <span className="hide1">Gherghina Maria Carmen</span> {/* Name Text */}
                     <span className="hide2">Lider Marketing</span>
-
                 </div>
 
             </div>
-
             <div className="thq-divider-horizontal"><span className="thq-divider-horizontal"></span></div>
 
+
             <Footer4
-
                 link1={
-
                     <Fragment>
                         <span className="about-text75">Home</span>
                     </Fragment>
-
                 }
                 link2={
-
                     <Fragment>
                         <span className="about-text76">About Us</span>
                     </Fragment>
-
                 }
                 link4={
-
                     <Fragment>
                         <span className="about-text77">Contact Us</span>
                     </Fragment>
-
                 }
             ></Footer4>
-
         </div>
+
     )
+
 }
 
 export default About

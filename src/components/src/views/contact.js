@@ -4,7 +4,6 @@ import { Helmet } from 'react-helmet'
 
 import Navbar8 from '../../navbar8'
 import Contact11 from '../../contact11'
-import Logos3 from '../../logos3'
 import Footer4 from '../../footer4'
 import './contact.css'
 import ScrollToTop from '../../scroll';
