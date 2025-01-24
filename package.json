@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && git add dist -f && git commit -m 'Deploy to gh-pages' && git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "jspdf": "^2.5.2",
