@@ -21,7 +21,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <nav className="container mx-auto px-4 py-3">
             <div className="flex items-center justify-between">
               <Link to="/" className="flex items-center space-x-2">
-                <img src="/logo.png" className=" w-12 h-12" />
+                <img src="/momentum-site/logo.png" className=" w-12 h-12" />
                 <span className="text-xl font-bold text-gray-800 dark:text-white">Momentum Robotics</span>
               </Link>
 
@@ -49,7 +49,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                       <Moon className="h-5 w-5 text-gray-600" />
                   )}
                 </button>
-                <img src="/FTC%20logo.png" className="w-16 "/>
+                <img src="/momentum-site/FTC%20logo.png" className="w-16 "/>
               </div>
 
               {/* Mobile Menu Button */}

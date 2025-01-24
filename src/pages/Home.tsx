@@ -4,17 +4,17 @@ import { Trophy, Notebook as Robot, Users, Brain } from 'lucide-react';
 
 const carouselImages = [
   {
-    url: '/images/competitions/competition-1.png',
+    url: '/momentum-site/images/competitions/competition-1.png',
     title: 'Competition Ready',
     description: "Our team preparing for one of biggest challenge we've encountered "
   },
   {
-    url: '/images/projects/robots.jpg',
+    url: '/momentum-site/images/projects/robots.jpg',
     title: 'Innovation at Work',
     description: 'Building tomorrow\'s technology today'
   },
   {
-    url: '/images/team/team-1.jpg',
+    url: '/momentum-site/images/team/team-1.jpg',
     title: 'Team Collaboration',
     description: 'Working together to achieve greatness'
   }

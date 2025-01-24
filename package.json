@@ -1,6 +1,6 @@
 {
   "name": "robotics-team-website",
-  "homepage": "https://momentumrobotics.github.io/momentum-site/",
+  "homepage": "https://momentumrobotics.github.io/momentum-site/#/",
   "private": true,
   "version": "1.1.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "npm run build && git add dist -f && git commit -m 'Deploy to gh-pages' && git subtree push --prefix dist origin gh-pages"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "jspdf": "^2.5.2",

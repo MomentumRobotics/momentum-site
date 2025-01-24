@@ -29,11 +29,11 @@ export default function About() {
   const documents = [
     {
       label: "Engineering Notebook",
-      url: "/pdfs/Engineering Notebook Momentum Robotics.pdf", // Replace with the actual URL
+      url: "/momentum-site/pdfs/Engineering Notebook Momentum Robotics.pdf", // Replace with the actual URL
     },
     {
       label: "Team's Journal",
-      url: "/pdfs/Team's jurnal Momentum Robotics.pdf", // Replace with the actual URL
+      url: "/momentum-site/pdfs/Team's jurnal Momentum Robotics.pdf", // Replace with the actual URL
     },
   ];
 

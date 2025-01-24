@@ -4,22 +4,22 @@ import {Mail, Phone, MapPin, Clock} from 'lucide-react';
 
 const features = [
   {
-    icon: "/sponsors/sponsors-1.png", // Assuming trophy.png is in the public/images/icons folder
+    icon: "/momentum-site/sponsors/sponsors-1.png", // Assuming trophy.png is in the public/images/icons folder
     title: 'Photodereve',
     description: 'Firmă de prestări servicii de fotografie si videografie.'
   },
   {
-    icon: "/sponsors/sponsors-2.png", // Assuming robot.png is in the public/images/icons folder
+    icon: "/momentum-site/sponsors/sponsors-2.png", // Assuming robot.png is in the public/images/icons folder
     title: 'Euro Building',
     description: 'Este o firmă cu capital integral privat, fondată în anul 2002, având o bogată experiență în execuția lucrărilor de construcții civile și industriale, precum și a instalațiilor aferente.'
   },
   {
-    icon: "/sponsors/sponsors-3.jpg", // Assuming users.png is in the public/images/icons folder
+    icon: "/momentum-site/sponsors/sponsors-3.jpg", // Assuming users.png is in the public/images/icons folder
     title: 'Avimi Serv',
     description: 'Încă din 2013, activăm în domeniul transporturilor rutiere pentru mărfurile vrac, în special agregate de carieră și balastieră, cereale, plante tehnice sau sare industrială pentru deszăpezire.'
   },
   {
-    icon: "/sponsors//sponsors-4.png", // Assuming brain.png is in the public/images/icons folder
+    icon: "/momentum-site/sponsors//sponsors-4.png", // Assuming brain.png is in the public/images/icons folder
     title: 'CONSAMAR HIDROIZOLATII SRL',
     description: ''
   }
