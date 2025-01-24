@@ -1,5 +1,6 @@
 import { Trophy, Users, Target, Lightbulb } from "lucide-react";
 import { useState } from "react";
+import ParticleBackground from "../components/ParticleBackground.tsx";
 
 export default function About() {
   const teamValues = [
@@ -41,9 +42,11 @@ export default function About() {
   const [selectedDocument, setSelectedDocument] = useState<string | null>(documents[0].url);
 
   return (
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+      <div><ParticleBackground />
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 "  >
+
         {/* Hero Section */}
-        <section className="relative py-20 px-4 bg-gradient-to-b from-blue-600 to-blue-800 dark:from-blue-800 dark:to-blue-900">
+        <section className="relative py-20 px-4 bg-gradient-to-b from-blue-600 to-blue-800 dark:from-blue-800 dark:to-blue-900 opacity-80" style={{zIndex: 2 }}>
           <div className="container mx-auto text-center text-white">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">About Our Team</h1>
             <p className="text-xl max-w-3xl mx-auto">
@@ -54,9 +57,9 @@ export default function About() {
         </section>
 
         {/* Mission Statement */}
-        <section className="py-16 px-4">
-          <div className="container mx-auto max-w-4xl">
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl p-8">
+        <section className="py-16 px-4 opacity-100" style={{zIndex: 9}}>
+          <div className="container mx-auto max-w-4xl opacity-100" style={{zIndex: 9}}>
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl p-8 opacity-100" style={{zIndex: 9}}>
               <h2 className="text-3xl font-bold text-center mb-8 text-gray-900 dark:text-white">
                 Our Mission
               </h2>
@@ -155,6 +158,7 @@ export default function About() {
         </section>
 
 
+      </div>
       </div>
   );
 }

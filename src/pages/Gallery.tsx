@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import ParticleBackground from "../components/ParticleBackground.tsx";
 
 // Define the type for an image object
 type Image = {
@@ -628,61 +629,63 @@ export default function Gallery() {
   };
 
   return (
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-        <div className="pt-16 pb-8 text-center">
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Our Gallery</h1>
-          <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto px-4">
-            Explore our journey through photos, from competition victories to behind-the-scenes moments
-          </p>
-        </div>
+      <div><ParticleBackground/>
+        <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+          <div className="pt-16 pb-8 text-center">
+            <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Our Gallery</h1>
+            <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto px-4">
+              Explore our journey through photos, from competition victories to behind-the-scenes moments
+            </p>
+          </div>
 
-        {/* Category Filter */}
-        <div className="flex justify-center gap-4 mb-8 px-4">
-          {categories.map((category) => (
-              <button
-                  key={category}
-                  onClick={() => handleCategoryChange(category)} // Handle category change
-                  className={`px-4 py-2 rounded-full transition-colors ${
-                      selectedCategory.toLowerCase() === category.toLowerCase()
-                          ? 'bg-blue-600 text-white'
-                          : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                  }`}
+          {/* Category Filter */}
+          <div className="flex justify-center gap-4 mb-8 px-4">
+            {categories.map((category) => (
+                <button
+                    key={category}
+                    onClick={() => handleCategoryChange(category)} // Handle category change
+                    className={`px-4 py-2 rounded-full transition-colors ${
+                        selectedCategory.toLowerCase() === category.toLowerCase()
+                            ? 'bg-blue-600 text-white'
+                            : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                    }`}
+                >
+                  {category}
+                </button>
+            ))}
+          </div>
+
+          {/* Gallery Images */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4">
+            {images.length > 0 ? (
+                images.map((img) => (
+                    <div
+                        key={img.url}
+                        className="relative cursor-pointer"
+                        onClick={() => setSelectedImage(img.url)}
+                    >
+                      <img src={img.url} alt="Gallery" className="w-full h-full object-cover rounded-lg"/>
+                    </div>
+                ))
+            ) : (
+                <p className="text-center text-gray-600 dark:text-gray-300">No images available for this category.</p>
+            )}
+          </div>
+
+          {/* Modal for image preview */}
+          {selectedImage && (
+              <div
+                  className="fixed inset-0 bg-gray-900 bg-opacity-50 flex justify-center items-center z-50"
+                  onClick={() => setSelectedImage(null)}
               >
-                {category}
-              </button>
-          ))}
-        </div>
-
-        {/* Gallery Images */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4">
-          {images.length > 0 ? (
-              images.map((img) => (
-                  <div
-                      key={img.url}
-                      className="relative cursor-pointer"
-                      onClick={() => setSelectedImage(img.url)}
-                  >
-                    <img src={img.url} alt="Gallery" className="w-full h-full object-cover rounded-lg" />
-                  </div>
-              ))
-          ) : (
-              <p className="text-center text-gray-600 dark:text-gray-300">No images available for this category.</p>
+                <img
+                    src={selectedImage}
+                    alt="Preview"
+                    className="max-w-full max-h-full object-contain"
+                />
+              </div>
           )}
         </div>
-
-        {/* Modal for image preview */}
-        {selectedImage && (
-            <div
-                className="fixed inset-0 bg-gray-900 bg-opacity-50 flex justify-center items-center z-50"
-                onClick={() => setSelectedImage(null)}
-            >
-              <img
-                  src={selectedImage}
-                  alt="Preview"
-                  className="max-w-full max-h-full object-contain"
-              />
-            </div>
-        )}
       </div>
-  );
-}
+        );
+        }

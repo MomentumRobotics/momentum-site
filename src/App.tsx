@@ -5,14 +5,14 @@ import Home from './pages/Home';
 import Gallery from './pages/Gallery';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import ParticleBackground from './components/ParticleBackground';
+
 
 function App() {
     return (
         <ThemeProvider>
             <Router>
                 {/* Global Particle Background */}
-                <ParticleBackground />
+
 
                 {/* Layout and Routes */}
                 <Layout>
